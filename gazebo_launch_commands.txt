@@ -1,15 +1,21 @@
+# STEPS TO SOURCE THE WORLD (Note: change name of 'turtlebot3_world' to run different worlds)
 source install/setup.bash
 source ~/.bashrc
 . /usr/share/gazebo/setup.sh
-colcon build
 export TURTLEBOT3_MODEL=burger
 ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 
 
-# for teleop
+# PUT THE LAUNCH FILES AND WORLDS INSIDE THE FOLLOWING PATH 
+/home/jestin/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo
+
+
+# FOR LAUNCHING AUTONOMOUS ROBOT MOVEMENT (once world has been launched) 
+ros2 run turtlebot3_gazebo turtlebot3_drive 
+
+
+# FOR KEYBOARD CONTROL 
 export TURTLEBOT3_MODEL=burger
 ros2 run turtlebot3_teleop teleop_keyboard
 
 
-# put the launch files and the worlds inside of:
-/home/jestin/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo
