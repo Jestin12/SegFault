@@ -5,15 +5,28 @@ source ~/.bashrc
 export TURTLEBOT3_MODEL=burger
 ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 
-
-# PUT THE LAUNCH FILES AND WORLDS INSIDE THE FOLLOWING PATH 
+-----------------------------------------------------------------------------------
+# CREATING NEW WORDS 
+# Follow this path: 
 /home/jestin/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo
 
+# Put the .world file in the worlds folder 
+# Code for the two worlds can be found on the GitHub. Copy and paste this code into a new file named "open_track.world" (or the name of the world you are creating) 
 
-# FOR LAUNCHING AUTONOMOUS ROBOT MOVEMENT (once world has been launched) 
+# Put the launch file in the launch folder named "open_track.launch.py" 
+# Change the name in the launch file to the name of the world 
+
+
+-----------------------------------------------------------------------------------
+# FOR LAUNCHING AUTONOMOUS ROBOT MOVEMENT (once world has been launched, and in a new terminal) 
 ros2 run turtlebot3_gazebo turtlebot3_drive 
 
+-----------------------------------------------------------------------------------
+# PATH FOR DRIVE.CPP
+~/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src$ 
 
+
+-----------------------------------------------------------------------------------
 # FOR KEYBOARD CONTROL 
 export TURTLEBOT3_MODEL=burger
 ros2 run turtlebot3_teleop teleop_keyboard
