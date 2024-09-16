@@ -21,6 +21,10 @@ ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 # FOR LAUNCHING AUTONOMOUS ROBOT MOVEMENT (once world has been launched, and in a new terminal) 
 ros2 run turtlebot3_gazebo turtlebot3_drive 
 
+-----------------------------------------------------------------------------------
+# PATH FOR DRIVE.CPP
+~/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src$ 
+
 
 -----------------------------------------------------------------------------------
 # FOR KEYBOARD CONTROL 
