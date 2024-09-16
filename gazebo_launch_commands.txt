@@ -1,0 +1,12 @@
+source install/setup.bash
+source install ~/.bashrc
+. /usr/share/gazebo/setup.sh
+colcon build
+export TURTLEBOT3_MODEL=burger
+ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+
+
+# for teleop
+export TURTLEBOT3_MODEL=burger
+ros2 run turtlebot3_teleop teleop_keyboard
+
