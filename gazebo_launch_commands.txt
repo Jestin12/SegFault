@@ -1,9 +1,40 @@
 # STEPS TO SOURCE THE WORLD (Note: change name of 'turtlebot3_world' to run different worlds)
+
+cd SegFault-Project-1
+cd turtlebot3_ws
+
 source install/setup.bash
-source ~/.bashrc
 . /usr/share/gazebo/setup.sh
 export TURTLEBOT3_MODEL=burger
-ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
+
+ros2 launch turtlebot3_gazebo open_track.launch.py
+
+-----------------------------------------------------------------------------------
+# PATH FOR DRIVE.CPP (in a new terminal)
+
+source install/setup.bash
+. /usr/share/gazebo/setup.sh
+export TURTLEBOT3_MODEL=burger
+
+ros2 run turtlebot3_gazebo turtlebot3_drive 
+
+///  # IF RUNNING CHANGES IN DRIVE.CPP ///
+
+colcon build
+
+source install/setup.bash
+. /usr/share/gazebo/setup.sh
+export TURTLEBOT3_MODEL=burger
+
+ros2 run turtlebot3_gazebo turtlebot3_drive 
+
+(file path if needed)
+~/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src$ 
+
+-----------------------------------------------------------------------------------
+# FOR KEYBOARD CONTROL 
+export TURTLEBOT3_MODEL=burger
+ros2 run turtlebot3_teleop teleop_keyboard
 
 -----------------------------------------------------------------------------------
 # CREATING NEW WORDS 
@@ -16,19 +47,14 @@ ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py
 # Put the launch file in the launch folder named "open_track.launch.py" 
 # Change the name in the launch file to the name of the world 
 
+----------------------------------------------------------------------------------------
+# file path to models, urdf, etc
 
------------------------------------------------------------------------------------
-# FOR LAUNCHING AUTONOMOUS ROBOT MOVEMENT (once world has been launched, and in a new terminal) 
-ros2 run turtlebot3_gazebo turtlebot3_drive 
-
------------------------------------------------------------------------------------
-# PATH FOR DRIVE.CPP
-~/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src$ 
+~/tb3_ws/src/turtlebot3_simulations/turtlebot3_gazebo
 
 
------------------------------------------------------------------------------------
-# FOR KEYBOARD CONTROL 
-export TURTLEBOT3_MODEL=burger
-ros2 run turtlebot3_teleop teleop_keyboard
+# path worlds in install
+~/tb3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo
+
 
 
