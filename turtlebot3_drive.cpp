@@ -49,6 +49,7 @@ Turtlebot3Drive::Turtlebot3Drive()
       &Turtlebot3Drive::scan_callback, \
       this, \
       std::placeholders::_1));
+
   odom_sub_ = this->create_subscription<nav_msgs::msg::Odometry>(
     "odom", qos, std::bind(&Turtlebot3Drive::odom_callback, this, std::placeholders::_1));
 
@@ -104,41 +105,28 @@ void Turtlebot3Drive::scan_callback(const sensor_msgs::msg::LaserScan::SharedPtr
 void Turtlebot3Drive::cam_callback(const sensor_msgs::msg::Image::SharedPtr msg)
 {
   const auto& ImgData = msg->data;
+  
+  int j;
 
-
-  // for (size_t i = 0; i < ImgData.size(); i += 3) 
-  // { // Print first 10 pixels (R, G, B) 
-
-  //   if (i + 2 < ImgData.size()) 
-  //   { 
-  //     RCLCPP_INFO(this->get_logger(), "Pixel %zu: R=%d, G=%d, B=%d", i / 3, ImgData[i], ImgData[i + 1], ImgData[i + 2]); 
-  //   }
-   
-  // }
-
-  for (size_t i = 0; i < ImgData.size(); i += 3*100)   //3 because the array goes ImgData[i] =red, ImgData[i+1]= green, ImgData[i+2]= blue
+  for (int i = 0; i < NumPixels; ++i)
   {
-    if (i + 2 < ImgData.size())
-    {
-      if (ImgData[i] >= 100)
-      {
+    j = PixelSelection[i];
 
-      }
-      if (ImgData[i+1] >= 100)
-      {
+    PixelData[i][0] = ImgData[j*3-3];
+    PixelData[i][1] = ImgData[j*3-2];
+    PixelData[i][2] = ImgData[j*3-1];
 
-      }
-      if (ImgData[i+2] >= 100)
-      {
-
-      }
-
-      if (ImgData[i] <= 20 && ImgData[i+1] >= 90 && ImgData[i+2] <= 20)
-      {
-        std::cout << "\n Goal seen \n" << std::endl;
-      }
-    }
   }
+  
+  // for (int i = 0; i < NumPixels*3; i+=3)
+  // {
+  //   j = PixelSelection[i];
+
+  //   Ameline[i]=j*3-3; 
+  //   Ameline[i+1]=j*3-2; 
+  //   Ameline[i+2]=j*3-1; 
+
+  // }
   
 }
 
@@ -160,9 +148,26 @@ void Turtlebot3Drive::update_callback()
   double escape_range = 30.0 * DEG2RAD;
   double check_forward_dist = 0.7;
   double check_side_dist = 0.6;
+  int CountGreen;
 
   switch (turtlebot3_state_num) {
     case GET_TB3_DIRECTION:
+
+      CountGreen = 0; 
+
+      for (int i=0; i<NumPixels; i++)
+      {
+        if (PixelData[i][0]<RedThresh && PixelData[i][1]>GreenThresh && PixelData[i][2]<BlueTresh)
+        {
+          CountGreen++; 
+        }
+      }
+
+      if (CountGreen == 5)
+      {
+        turtlebot3_state_num = TB3_STOP; 
+      }
+
       if (scan_data_[CENTER] > check_forward_dist) {
         if (scan_data_[LEFT] < check_side_dist) {
           prev_robot_pose_ = robot_pose_;
@@ -201,6 +206,10 @@ void Turtlebot3Drive::update_callback()
         update_cmd_vel(0.0, ANGULAR_VELOCITY);
       }
       break;
+
+    case TB3_STOP: 
+      update_cmd_vel(0.0, 0.0); 
+      break; 
 
     default:
       turtlebot3_state_num = GET_TB3_DIRECTION;

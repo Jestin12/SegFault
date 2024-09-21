@@ -40,6 +40,7 @@
 #define TB3_DRIVE_FORWARD 1
 #define TB3_RIGHT_TURN    2
 #define TB3_LEFT_TURN     3
+#define TB3_STOP          4
 
 class Turtlebot3Drive : public rclcpp::Node
 {
@@ -61,6 +62,13 @@ private:
   double robot_pose_;
   double prev_robot_pose_;
   double scan_data_[3];
+  static const int NumPixels = 5;
+  int PixelSelection[NumPixels] = {1036800, 1036800 + 3 * 1920, 1027200, };
+
+  double PixelData[5][3];
+  double Ameline[15]; 
+
+  
 
   // ROS timer
   rclcpp::TimerBase::SharedPtr update_timer_;
@@ -71,5 +79,11 @@ private:
   void scan_callback(const sensor_msgs::msg::LaserScan::SharedPtr msg);
   void odom_callback(const nav_msgs::msg::Odometry::SharedPtr msg);
   void cam_callback(const sensor_msgs::msg::Image::SharedPtr msg);
+
+  const int RedThresh = 20;
+  const int GreenThresh = 90;
+  const int BlueTresh = 20;
+
+
 };
 #endif  // TURTLEBOT3_GAZEBO__TURTLEBOT3_DRIVE_HPP_
