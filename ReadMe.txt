@@ -19,19 +19,34 @@ Password = turtlebot
 
 
 
+4. SELF_TEST
+
 If wanted to test launch and camera:
 
 selfTest
 Input number corresponding to node that you want to test 
 
-If wanted to test teleop 
+-	finding the launch file:
+You can search through the files in the turtlebot as you would on your computer
 
-Ros2 launch turtlebot_test self_test.launch.py
+the file: 
+self_test.launch.py 
 
-In new terminal (laptop machine)
+is in:
+cd ~/ros2_ws/install/self_test/share/self_test/launch
 
-export TURTLEBOT3_MODEL=burger 
-Ros2 run turtlebot3_teleop teleop_keyboard
+5. TELEOP (MOVING TURTLEBOT USING YOU KEYBOARD)
+
+-	If wanted to test teleop on actual turtlebot:
+
+In a new terminal (turtlebot machine)
+
+	Ros2 launch turtlebot_test self_test.launch.py
+
+In new terminal (turlebot machine)
+
+	export TURTLEBOT3_MODEL=burger 
+	Ros2 run turtlebot3_teleop teleop_keyboard
 
 
 
