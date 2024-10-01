@@ -1,0 +1,22 @@
+[0.008s] Invoking command in '/home/jestin/SegFault/tb_ws/build/project2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jestin/SegFault/tb_ws/build/project2 -- -j8 -l8
+[0.056s] [100%] Built target project2
+[0.066s] Invoked command in '/home/jestin/SegFault/tb_ws/build/project2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jestin/SegFault/tb_ws/build/project2 -- -j8 -l8
+[0.102s] Invoking command in '/home/jestin/SegFault/tb_ws/build/project2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jestin/SegFault/tb_ws/build/project2
+[0.113s] -- Install configuration: ""
+[0.113s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/lib/project2/project2
+[0.113s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2//launch
+[0.114s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2//models
+[0.114s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2//models/turtlebot3_burger
+[0.114s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2//models/turtlebot3_burger/model.config
+[0.114s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2//models/turtlebot3_burger/model.sdf
+[0.114s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2//models/turtlebot3_burger/model-1_4.sdf
+[0.114s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2//rviz
+[0.114s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2//urdf
+[0.114s] -- Installing: /home/jestin/SegFault/tb_ws/install/project2/share/project2//worlds
+[0.114s] [31mCMake Error at cmake_install.cmake:76 (file):
+[0.114s]   file INSTALL cannot find
+[0.114s]   "/home/jestin/SegFault/tb_ws/src/project2/include": No such file or
+[0.114s]   directory.
+[0.114s] 
+[0.114s] [0m
+[0.116s] Invoked command in '/home/jestin/SegFault/tb_ws/build/project2' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jestin/SegFault/tb_ws/build/project2

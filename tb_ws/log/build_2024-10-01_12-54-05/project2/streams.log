@@ -1,0 +1,20 @@
+[0.009s] Invoking command in '/home/jestin/SegFault/tb_ws/build/project2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jestin/SegFault/tb_ws/build/project2 -- -j8 -l8
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target project2[0m
+[0.056s] [100%] Built target project2
+[0.065s] Invoked command in '/home/jestin/SegFault/tb_ws/build/project2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jestin/SegFault/tb_ws/build/project2 -- -j8 -l8
+[0.091s] Invoking command in '/home/jestin/SegFault/tb_ws/build/project2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jestin/SegFault/tb_ws/build/project2
+[0.097s] -- Install configuration: ""
+[0.097s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/lib/project2/project2
+[0.097s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2//launch
+[0.097s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2//models
+[0.097s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2//models/turtlebot3_burger
+[0.097s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2//models/turtlebot3_burger/model.config
+[0.097s] [31mCMake Error at cmake_install.cmake:66 (file):
+[0.097s]   file INSTALL cannot find "/home/jestin/SegFault/tb_ws/src/project2/urdf":
+[0.097s]   No such file or directory.
+[0.098s] 
+[0.098s] [0m
+[0.098s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2//models/turtlebot3_burger/model.sdf
+[0.098s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2//models/turtlebot3_burger/model-1_4.sdf
+[0.098s] -- Installing: /home/jestin/SegFault/tb_ws/install/project2/share/project2//rviz
+[0.099s] Invoked command in '/home/jestin/SegFault/tb_ws/build/project2' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jestin/SegFault/tb_ws/build/project2

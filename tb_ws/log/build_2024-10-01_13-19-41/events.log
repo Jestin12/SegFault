@@ -1,0 +1,135 @@
+[0.000000] (-) TimerEvent: {}
+[0.000492] (project2) JobQueued: {'identifier': 'project2', 'dependencies': OrderedDict()}
+[0.000581] (project2) JobStarted: {'identifier': 'project2'}
+[0.006832] (project2) JobProgress: {'identifier': 'project2', 'progress': 'cmake'}
+[0.007494] (project2) JobProgress: {'identifier': 'project2', 'progress': 'build'}
+[0.008094] (project2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jestin/SegFault/tb_ws/build/project2', '--', '-j8', '-l8'], 'cwd': '/home/jestin/SegFault/tb_ws/build/project2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'jestin'), ('GIO_MODULE_DIR', '/home/jestin/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/169/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jestin'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/jestin/SegFault/tb_ws/src'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/169/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/jestin/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/169/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/169/usr/share/code/code'), ('MANAGERPID', '1437'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1615'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '20045'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jestin'), ('JOURNAL_STREAM', '8:9957'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LANg', 'en_US.UTF-8'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'jestin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jestin-Latitude-3520:@/tmp/.ICE-unix/1585,unix/jestin-Latitude-3520:/tmp/.ICE-unix/1585'), ('GTK_EXE_PREFIX', '/snap/code/169/usr'), ('INVOCATION_ID', 'a236e2cb21ae4a7f8a8f8c10466b6b55'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/169/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PSAZU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e2a5ad3a6c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/jestin/snap/code/169/.local/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '9'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jestin/SegFault/tb_ws/build/project2'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2473acd3f6b77fbae3be71c266f8c94a'), ('XDG_DATA_DIRS', '/home/jestin/snap/code/169/.local/share:/home/jestin/snap/code/169:/snap/code/169/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.031761] (project2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099914] (-) TimerEvent: {}
+[0.123335] (project2) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.123494] (project2) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[0.123546] (project2) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[0.123586] (project2) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.123625] (project2) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.123664] (project2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.123704] (project2) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[0.123743] (project2) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[0.123780] (project2) StderrLine: {'line': b'  CMakeLists.txt:23 (find_package)\n'}
+[0.123817] (project2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.123855] (project2) StderrLine: {'line': b'\x1b[0m\n'}
+[0.140088] (project2) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.161649] (project2) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[0.162510] (project2) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.165551] (project2) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.166449] (project2) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[0.170422] (project2) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[0.170579] (project2) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[0.177571] (project2) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[0.177683] (project2) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[0.177738] (project2) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[0.177788] (project2) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[0.177834] (project2) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[0.177880] (project2) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[0.177925] (project2) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[0.177969] (project2) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[0.178014] (project2) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[0.178064] (project2) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[0.178144] (project2) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[0.178197] (project2) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[0.200081] (-) TimerEvent: {}
+[0.254661] (project2) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.254801] (project2) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[0.255114] (project2) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[0.267753] (project2) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[0.275670] (project2) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.279052] (project2) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.287090] (project2) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[0.300280] (-) TimerEvent: {}
+[0.312523] (project2) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.321498] (project2) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[0.342659] (project2) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.342869] (project2) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[0.357233] (project2) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.360958] (project2) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.369847] (project2) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[0.400416] (-) TimerEvent: {}
+[0.404751] (project2) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.404923] (project2) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[0.405218] (project2) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[0.405302] (project2) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.405370] (project2) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.414382] (project2) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[0.414592] (project2) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[0.414911] (project2) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[0.415156] (project2) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.415863] (project2) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[0.416140] (project2) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[0.444189] (project2) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[0.452925] (project2) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[0.477254] (project2) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[0.485212] (project2) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[0.500537] (-) TimerEvent: {}
+[0.511280] (project2) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[0.511638] (project2) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.512061] (project2) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.513823] (project2) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)\n'}
+[0.513976] (project2) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.528348] (project2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.529963] (project2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.534292] (project2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.540860] (project2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.548896] (project2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.573615] (project2) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.584367] (project2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.600699] (-) TimerEvent: {}
+[0.600864] (project2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.601937] (project2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.677816] (project2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700886] (-) TimerEvent: {}
+[0.704466] (project2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.716942] (project2) StdoutLine: {'line': b'-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.719604] (project2) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.733648] (project2) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)\n'}
+[0.801095] (-) TimerEvent: {}
+[0.804312] (project2) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.813753] (project2) StdoutLine: {'line': b'-- Generating done\n'}
+[0.815359] (project2) StdoutLine: {'line': b'-- Build files have been written to: /home/jestin/SegFault/tb_ws/build/project2\n'}
+[0.838297] (project2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target project2\x1b[0m\n'}
+[0.852811] (project2) StdoutLine: {'line': b'[100%] Built target project2\n'}
+[0.861565] (project2) CommandEnded: {'returncode': 0}
+[0.885240] (project2) JobProgress: {'identifier': 'project2', 'progress': 'install'}
+[0.895010] (project2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jestin/SegFault/tb_ws/build/project2'], 'cwd': '/home/jestin/SegFault/tb_ws/build/project2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'jestin'), ('GIO_MODULE_DIR', '/home/jestin/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/snap/code/169/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jestin'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/jestin/SegFault/tb_ws/src'), ('TERM_PROGRAM_VERSION', '1.93.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/169/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('GTK_IM_MODULE_FILE', '/home/jestin/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/169/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/169/usr/share/code/code'), ('MANAGERPID', '1437'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1615'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '20045'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jestin'), ('JOURNAL_STREAM', '8:9957'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LANg', 'en_US.UTF-8'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'jestin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jestin-Latitude-3520:@/tmp/.ICE-unix/1585,unix/jestin-Latitude-3520:/tmp/.ICE-unix/1585'), ('GTK_EXE_PREFIX', '/snap/code/169/usr'), ('INVOCATION_ID', 'a236e2cb21ae4a7f8a8f8c10466b6b55'), ('XDG_MENU_PREFIX', 'gnome-'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LOCPATH', '/snap/code/169/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PSAZU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e2a5ad3a6c.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/jestin/snap/code/169/.local/share/glib-2.0/schemas'), ('ROS_DOMAIN_ID', '9'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jestin/SegFault/tb_ws/build/project2'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2473acd3f6b77fbae3be71c266f8c94a'), ('XDG_DATA_DIRS', '/home/jestin/snap/code/169/.local/share:/home/jestin/snap/code/169:/snap/code/169/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.901181] (-) TimerEvent: {}
+[0.901991] (project2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.902246] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/lib/project2/project2\n'}
+[0.902380] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2//launch\n'}
+[0.902456] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2//models\n'}
+[0.902597] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2//models/turtlebot3_burger\n'}
+[0.902685] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2//models/turtlebot3_burger/model.config\n'}
+[0.902754] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2//models/turtlebot3_burger/model.sdf\n'}
+[0.902825] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2//models/turtlebot3_burger/model-1_4.sdf\n'}
+[0.902893] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2//rviz\n'}
+[0.902961] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2//urdf\n'}
+[0.903029] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2//worlds\n'}
+[0.903283] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/include/\n'}
+[0.903381] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/include//TBmain.hpp\n'}
+[0.903455] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/ament_index/resource_index/package_run_dependencies/project2\n'}
+[0.903526] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/ament_index/resource_index/parent_prefix_path/project2\n'}
+[0.903597] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/environment/ament_prefix_path.sh\n'}
+[0.903708] (project2) StdoutLine: {'line': b'-- Installing: /home/jestin/SegFault/tb_ws/install/project2/share/project2/environment/ament_prefix_path.dsv\n'}
+[0.903780] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/environment/path.sh\n'}
+[0.903849] (project2) StdoutLine: {'line': b'-- Installing: /home/jestin/SegFault/tb_ws/install/project2/share/project2/environment/path.dsv\n'}
+[0.903918] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/local_setup.bash\n'}
+[0.903986] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/local_setup.sh\n'}
+[0.904065] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/local_setup.zsh\n'}
+[0.904179] (project2) StdoutLine: {'line': b'-- Installing: /home/jestin/SegFault/tb_ws/install/project2/share/project2/local_setup.dsv\n'}
+[0.904250] (project2) StdoutLine: {'line': b'-- Installing: /home/jestin/SegFault/tb_ws/install/project2/share/project2/package.dsv\n'}
+[0.904315] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/ament_index/resource_index/packages/project2\n'}
+[0.904380] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.904445] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.904508] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/cmake/project2Config.cmake\n'}
+[0.904570] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/cmake/project2Config-version.cmake\n'}
+[0.904616] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/package.xml\n'}
+[0.905544] (project2) CommandEnded: {'returncode': 0}
+[0.935480] (project2) JobEnded: {'identifier': 'project2', 'rc': 0}
+[0.935978] (-) EventReactorShutdown: {}

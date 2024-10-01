@@ -2,7 +2,7 @@
 # Set minimum required version of cmake, project name and compile options
 ################################################################################
 cmake_minimum_required(VERSION 3.5)
-project(turtlebot3_gazebo)
+project(project2)
 
 if(NOT CMAKE_CXX_STANDARD)
   set(CMAKE_CXX_STANDARD 17)
@@ -42,6 +42,10 @@ include_directories(
   ${GAZEBO_INCLUDE_DIRS}
 )
 
+# include_directories(
+#   "${CMAKE_SOURCE_DIR}/include"
+# )
+
 set(dependencies
   "geometry_msgs"
   "nav_msgs"
@@ -52,27 +56,27 @@ set(dependencies
   "gazebo_msgs"
 )
 
-# Add the source files where the required classes are implemented
-set(ADDITIONAL_SOURCES
-  src/CDriver.cpp
-  src/COdometer.cpp
-  src/CLidar.cpp
-  src/CCamera.cpp
-)
+# # Add the source files where the required classes are implemented
+# set(ADDITIONAL_SOURCES
+#   src/CDriver.cpp
+#   src/COdometer.cpp
+#   src/CLidar.cpp
+#   src/CCamera.cpp
+# )
 
-set(EXEC_NAME "turtlebot3_drive")
+set(EXEC_NAME "project2")
 
-add_executable(${EXEC_NAME} src/turtlebot3_drive.cpp)
+add_executable(${EXEC_NAME} src/TBmain.cpp)
 ament_target_dependencies(${EXEC_NAME} ${dependencies})
 
-add_library(obstacle1 SHARED models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc)
-target_link_libraries(obstacle1 ${GAZEBO_LIBRARIES})
+# add_library(obstacle1 SHARED models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc)
+# target_link_libraries(obstacle1 ${GAZEBO_LIBRARIES})
 
-add_library(obstacle2 SHARED models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc)
-target_link_libraries(obstacle2 ${GAZEBO_LIBRARIES})
+# add_library(obstacle2 SHARED models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc)
+# target_link_libraries(obstacle2 ${GAZEBO_LIBRARIES})
 
-add_library(obstacles SHARED models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc)
-target_link_libraries(obstacles ${GAZEBO_LIBRARIES})
+# add_library(obstacles SHARED models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc)
+# target_link_libraries(obstacles ${GAZEBO_LIBRARIES})
 
 ################################################################################
 # Install

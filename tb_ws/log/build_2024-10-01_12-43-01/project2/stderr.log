@@ -1,0 +1,7 @@
+[01m[K/home/jestin/SegFault/tb_ws/src/project2/src/TBmain.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kproject2/includes/TBmain.hpp: No such file or directory
+    1 | #include [01;31m[K"project2/includes/TBmain.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/project2.dir/build.make:76: CMakeFiles/project2.dir/src/TBmain.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/project2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

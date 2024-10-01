@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target project2[0m
+[100%] Built target project2
+-- Install configuration: ""
+-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/lib/project2/project2
+-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2//launch
+-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2//models
+-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2//models/turtlebot3_burger
+-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2//models/turtlebot3_burger/model.config
+[31mCMake Error at cmake_install.cmake:66 (file):
+  file INSTALL cannot find "/home/jestin/SegFault/tb_ws/src/project2/urdf":
+  No such file or directory.
+
+[0m
+-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2//models/turtlebot3_burger/model.sdf
+-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2//models/turtlebot3_burger/model-1_4.sdf
+-- Installing: /home/jestin/SegFault/tb_ws/install/project2/share/project2//rviz
