@@ -143,7 +143,14 @@ Call Stack (most recent call first):
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
 
-9.
+9. CONFIGURING LAUNCH FILE
+
+    turtlebot3_bringup = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(get_package_share_directory('turtlebot3_bringup'), 'launch/robot.launch.py')
+        )
+    )
+
 
 
  

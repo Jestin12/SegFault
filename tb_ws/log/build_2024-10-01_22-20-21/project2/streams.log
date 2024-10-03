@@ -1,0 +1,34 @@
+[0.020s] Invoking command in '/home/jestin/SegFault/tb_ws/build/project2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jestin/SegFault/tb_ws/build/project2 -- -j8 -l8
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target robot[0m
+[0.082s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.082s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.094s] [ 33%] Built target robot
+[0.097s] [ 66%] Built target listener
+[0.098s] [ 83%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[5.114s] [100%] [32m[1mLinking CXX executable talker[0m
+[5.327s] [100%] Built target talker
+[5.340s] Invoked command in '/home/jestin/SegFault/tb_ws/build/project2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jestin/SegFault/tb_ws/build/project2 -- -j8 -l8
+[5.381s] Invoking command in '/home/jestin/SegFault/tb_ws/build/project2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jestin/SegFault/tb_ws/build/project2
+[5.388s] -- Install configuration: ""
+[5.389s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/lib/project2/robot
+[5.389s] -- Installing: /home/jestin/SegFault/tb_ws/install/project2/lib/project2/talker
+[5.390s] -- Set runtime path of "/home/jestin/SegFault/tb_ws/install/project2/lib/project2/talker" to ""
+[5.390s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/lib/project2/listener
+[5.390s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/ament_index/resource_index/package_run_dependencies/project2
+[5.390s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/ament_index/resource_index/parent_prefix_path/project2
+[5.390s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/environment/ament_prefix_path.sh
+[5.390s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/environment/ament_prefix_path.dsv
+[5.390s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/environment/path.sh
+[5.390s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/environment/path.dsv
+[5.390s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/local_setup.bash
+[5.390s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/local_setup.sh
+[5.390s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/local_setup.zsh
+[5.390s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/local_setup.dsv
+[5.390s] -- Installing: /home/jestin/SegFault/tb_ws/install/project2/share/project2/package.dsv
+[5.391s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/ament_index/resource_index/packages/project2
+[5.391s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.391s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.391s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/cmake/project2Config.cmake
+[5.391s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/cmake/project2Config-version.cmake
+[5.391s] -- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/package.xml
+[5.392s] Invoked command in '/home/jestin/SegFault/tb_ws/build/project2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jestin/SegFault/tb_ws/build/project2

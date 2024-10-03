@@ -1,0 +1,29 @@
+[0.008s] Invoking command in '/home/jestin/SegFault/tb_ws/build/project2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jestin/SegFault/tb_ws/build/project2 -- -j8 -l8
+[0.024s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.135s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.171s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.174s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.184s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.192s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.206s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.243s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.245s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.321s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.350s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.386s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.397s] -- Looking for pthread.h
+[0.462s] -- Looking for pthread.h - found
+[0.462s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.529s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.531s] -- Found Threads: TRUE  
+[0.572s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.572s]   ament_target_dependencies() the passed package name
+[0.572s]   'src/subscriber_member_functions.cpp' was not found before
+[0.572s] Call Stack (most recent call first):
+[0.572s]   CMakeLists.txt:22 (ament_target_dependencies)
+[0.572s] 
+[0.572s] [0m
+[0.572s] -- Configuring incomplete, errors occurred!
+[0.572s] See also "/home/jestin/SegFault/tb_ws/build/project2/CMakeFiles/CMakeOutput.log".
+[0.580s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.583s] Invoked command in '/home/jestin/SegFault/tb_ws/build/project2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jestin/SegFault/tb_ws/build/project2 -- -j8 -l8

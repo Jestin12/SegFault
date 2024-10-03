@@ -1,0 +1,232 @@
+[0.000000] (-) TimerEvent: {}
+[0.000367] (project2) JobQueued: {'identifier': 'project2', 'dependencies': OrderedDict()}
+[0.000534] (project2) JobStarted: {'identifier': 'project2'}
+[0.008209] (project2) JobProgress: {'identifier': 'project2', 'progress': 'cmake'}
+[0.009470] (project2) JobProgress: {'identifier': 'project2', 'progress': 'build'}
+[0.010009] (project2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jestin/SegFault/tb_ws/build/project2', '--', '-j8', '-l8'], 'cwd': '/home/jestin/SegFault/tb_ws/build/project2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'jestin'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jestin'), ('OLDPWD', '/home/jestin/SegFault/tb_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1437'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1585'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2473acd3f6b77fbae3be71c266f8c94a'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jestin/SegFault/tb_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jestin'), ('JOURNAL_STREAM', '8:15253'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('LANg', 'en_US.UTF-8'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jestin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jestin-Latitude-3520:@/tmp/.ICE-unix/1585,unix/jestin-Latitude-3520:/tmp/.ICE-unix/1585'), ('INVOCATION_ID', '5b96ca605564423690fc294e8db72ff1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('TILIX_ID', '5fb848de-f1bf-4528-8816-96576e7b594b'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PSAZU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '9'), ('AMENT_PREFIX_PATH', '/home/jestin/SegFault/tb_ws/install/project2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jestin/SegFault/tb_ws/build/project2'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2473acd3f6b77fbae3be71c266f8c94a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jestin/SegFault/tb_ws/install/project2:/opt/ros/humble')]), 'shell': False}
+[0.035548] (project2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099877] (-) TimerEvent: {}
+[0.152619] (project2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.195655] (project2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.198894] (project2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.199958] (-) TimerEvent: {}
+[0.207638] (project2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.220584] (project2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.234920] (project2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.276299] (project2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.278585] (project2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.300153] (-) TimerEvent: {}
+[0.369746] (project2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400341] (-) TimerEvent: {}
+[0.435408] (project2) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.435598] (project2) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[0.435646] (project2) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[0.435683] (project2) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.435720] (project2) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.435755] (project2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.435789] (project2) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[0.435825] (project2) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[0.435859] (project2) StderrLine: {'line': b'  CMakeLists.txt:12 (find_package)\n'}
+[0.435893] (project2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.435928] (project2) StderrLine: {'line': b'\x1b[0m\n'}
+[0.435962] (project2) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.436337] (project2) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[0.447309] (project2) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[0.500457] (-) TimerEvent: {}
+[0.536647] (project2) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[0.572854] (project2) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[0.592590] (project2) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.600615] (-) TimerEvent: {}
+[0.621207] (project2) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[0.642993] (project2) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[0.650316] (project2) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.660303] (project2) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.662504] (project2) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[0.662688] (project2) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[0.666347] (project2) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[0.674985] (project2) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[0.700773] (-) TimerEvent: {}
+[0.703868] (project2) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[0.711114] (project2) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[0.718300] (project2) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[0.722151] (project2) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[0.722268] (project2) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[0.725628] (project2) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[0.725741] (project2) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[0.730910] (project2) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[0.731086] (project2) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[0.735496] (project2) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[0.735670] (project2) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[0.739023] (project2) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[0.739155] (project2) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[0.744077] (project2) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[0.800895] (-) TimerEvent: {}
+[0.812605] (project2) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.814691] (project2) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[0.814831] (project2) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[0.828644] (project2) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[0.837445] (project2) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.842045] (project2) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.853084] (project2) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[0.879805] (project2) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[0.884787] (project2) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.893210] (project2) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[0.901007] (-) TimerEvent: {}
+[0.921692] (project2) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[0.925023] (project2) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.925371] (project2) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[0.942555] (project2) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.946474] (project2) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.955647] (project2) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[0.987241] (project2) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.990784] (project2) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[0.991234] (project2) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[0.991840] (project2) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.992681] (project2) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.993885] (project2) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[1.001139] (-) TimerEvent: {}
+[1.002858] (project2) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[1.003630] (project2) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.005677] (project2) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[1.006042] (project2) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.006257] (project2) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.009244] (project2) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[1.009532] (project2) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.075393] (project2) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[1.084342] (project2) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.092885] (project2) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.101232] (-) TimerEvent: {}
+[1.123582] (project2) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[1.130763] (project2) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.144249] (project2) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.175516] (project2) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[1.175964] (project2) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.176313] (project2) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.176776] (project2) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.184551] (project2) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)\n'}
+[1.186762] (project2) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.201335] (project2) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.201445] (-) TimerEvent: {}
+[1.218741] (project2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.238444] (project2) StdoutLine: {'line': b'-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.250938] (project2) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.270907] (project2) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)\n'}
+[1.301564] (-) TimerEvent: {}
+[1.307411] (project2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.359779] (project2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.360330] (project2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/jestin/SegFault/tb_ws/src/project2/include;$<BUILD_INTERFACE:/home/jestin/SegFault/tb_ws/src/project2/include>\n'}
+[1.360452] (project2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.360656] (project2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.361173] (project2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.361278] (project2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.361369] (project2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.363592] (project2) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.381481] (project2) StdoutLine: {'line': b'-- Generating done\n'}
+[1.383451] (project2) StdoutLine: {'line': b'-- Build files have been written to: /home/jestin/SegFault/tb_ws/build/project2\n'}
+[1.403207] (-) TimerEvent: {}
+[1.415382] (project2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot\x1b[0m\n'}
+[1.417786] (project2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[1.424630] (project2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[1.432485] (project2) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/robot.dir/src/robot.cpp.o\x1b[0m\n'}
+[1.434596] (project2) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[1.447040] (project2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[1.480351] (project2) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable robot\x1b[0m\n'}
+[1.503342] (-) TimerEvent: {}
+[1.515630] (project2) StdoutLine: {'line': b'[ 66%] Built target robot\n'}
+[1.603535] (-) TimerEvent: {}
+[1.703830] (-) TimerEvent: {}
+[1.804147] (-) TimerEvent: {}
+[1.904607] (-) TimerEvent: {}
+[2.005017] (-) TimerEvent: {}
+[2.105475] (-) TimerEvent: {}
+[2.206029] (-) TimerEvent: {}
+[2.306886] (-) TimerEvent: {}
+[2.407365] (-) TimerEvent: {}
+[2.508091] (-) TimerEvent: {}
+[2.608560] (-) TimerEvent: {}
+[2.708871] (-) TimerEvent: {}
+[2.809240] (-) TimerEvent: {}
+[2.909607] (-) TimerEvent: {}
+[3.009981] (-) TimerEvent: {}
+[3.110259] (-) TimerEvent: {}
+[3.210666] (-) TimerEvent: {}
+[3.311049] (-) TimerEvent: {}
+[3.411450] (-) TimerEvent: {}
+[3.511879] (-) TimerEvent: {}
+[3.612248] (-) TimerEvent: {}
+[3.712659] (-) TimerEvent: {}
+[3.813058] (-) TimerEvent: {}
+[3.913483] (-) TimerEvent: {}
+[4.013914] (-) TimerEvent: {}
+[4.114373] (-) TimerEvent: {}
+[4.214766] (-) TimerEvent: {}
+[4.315182] (-) TimerEvent: {}
+[4.415559] (-) TimerEvent: {}
+[4.515967] (-) TimerEvent: {}
+[4.616379] (-) TimerEvent: {}
+[4.716700] (-) TimerEvent: {}
+[4.817048] (-) TimerEvent: {}
+[4.828241] (project2) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[4.917368] (-) TimerEvent: {}
+[5.016544] (project2) StdoutLine: {'line': b'[ 83%] Built target talker\n'}
+[5.017405] (-) TimerEvent: {}
+[5.117721] (-) TimerEvent: {}
+[5.218105] (-) TimerEvent: {}
+[5.318473] (-) TimerEvent: {}
+[5.418847] (-) TimerEvent: {}
+[5.519252] (-) TimerEvent: {}
+[5.619542] (-) TimerEvent: {}
+[5.719814] (-) TimerEvent: {}
+[5.820099] (-) TimerEvent: {}
+[5.920344] (-) TimerEvent: {}
+[6.020609] (-) TimerEvent: {}
+[6.120865] (-) TimerEvent: {}
+[6.221132] (-) TimerEvent: {}
+[6.321361] (-) TimerEvent: {}
+[6.421606] (-) TimerEvent: {}
+[6.521824] (-) TimerEvent: {}
+[6.622077] (-) TimerEvent: {}
+[6.722328] (-) TimerEvent: {}
+[6.822686] (-) TimerEvent: {}
+[6.923032] (-) TimerEvent: {}
+[7.023405] (-) TimerEvent: {}
+[7.123786] (-) TimerEvent: {}
+[7.224136] (-) TimerEvent: {}
+[7.324489] (-) TimerEvent: {}
+[7.424829] (-) TimerEvent: {}
+[7.525174] (-) TimerEvent: {}
+[7.606038] (project2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[7.625288] (-) TimerEvent: {}
+[7.725627] (-) TimerEvent: {}
+[7.826050] (-) TimerEvent: {}
+[7.899521] (project2) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[7.907247] (project2) CommandEnded: {'returncode': 0}
+[7.926148] (-) TimerEvent: {}
+[7.928993] (project2) JobProgress: {'identifier': 'project2', 'progress': 'install'}
+[7.935680] (project2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jestin/SegFault/tb_ws/build/project2'], 'cwd': '/home/jestin/SegFault/tb_ws/build/project2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'jestin'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jestin'), ('OLDPWD', '/home/jestin/SegFault/tb_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1437'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1585'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2473acd3f6b77fbae3be71c266f8c94a'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/jestin/SegFault/tb_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jestin'), ('JOURNAL_STREAM', '8:15253'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('LANg', 'en_US.UTF-8'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jestin'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jestin-Latitude-3520:@/tmp/.ICE-unix/1585,unix/jestin-Latitude-3520:/tmp/.ICE-unix/1585'), ('INVOCATION_ID', '5b96ca605564423690fc294e8db72ff1'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('TILIX_ID', '5fb848de-f1bf-4528-8816-96576e7b594b'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PSAZU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '9'), ('AMENT_PREFIX_PATH', '/home/jestin/SegFault/tb_ws/install/project2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jestin/SegFault/tb_ws/build/project2'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2473acd3f6b77fbae3be71c266f8c94a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/jestin/SegFault/tb_ws/install/project2:/opt/ros/humble')]), 'shell': False}
+[7.943237] (project2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.944137] (project2) StdoutLine: {'line': b'-- Installing: /home/jestin/SegFault/tb_ws/install/project2/lib/project2/robot\n'}
+[7.944231] (project2) StdoutLine: {'line': b'-- Installing: /home/jestin/SegFault/tb_ws/install/project2/lib/project2/talker\n'}
+[7.945085] (project2) StdoutLine: {'line': b'-- Set runtime path of "/home/jestin/SegFault/tb_ws/install/project2/lib/project2/talker" to ""\n'}
+[7.945180] (project2) StdoutLine: {'line': b'-- Installing: /home/jestin/SegFault/tb_ws/install/project2/lib/project2/listener\n'}
+[7.947750] (project2) StdoutLine: {'line': b'-- Set runtime path of "/home/jestin/SegFault/tb_ws/install/project2/lib/project2/listener" to ""\n'}
+[7.947800] (project2) StdoutLine: {'line': b'-- Installing: /home/jestin/SegFault/tb_ws/install/project2/share/ament_index/resource_index/package_run_dependencies/project2\n'}
+[7.947850] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/ament_index/resource_index/parent_prefix_path/project2\n'}
+[7.947906] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/environment/ament_prefix_path.sh\n'}
+[7.947962] (project2) StdoutLine: {'line': b'-- Installing: /home/jestin/SegFault/tb_ws/install/project2/share/project2/environment/ament_prefix_path.dsv\n'}
+[7.948020] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/environment/path.sh\n'}
+[7.948057] (project2) StdoutLine: {'line': b'-- Installing: /home/jestin/SegFault/tb_ws/install/project2/share/project2/environment/path.dsv\n'}
+[7.948124] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/local_setup.bash\n'}
+[7.948179] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/local_setup.sh\n'}
+[7.948219] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/local_setup.zsh\n'}
+[7.948277] (project2) StdoutLine: {'line': b'-- Installing: /home/jestin/SegFault/tb_ws/install/project2/share/project2/local_setup.dsv\n'}
+[7.948316] (project2) StdoutLine: {'line': b'-- Installing: /home/jestin/SegFault/tb_ws/install/project2/share/project2/package.dsv\n'}
+[7.948370] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/ament_index/resource_index/packages/project2\n'}
+[7.948409] (project2) StdoutLine: {'line': b'-- Installing: /home/jestin/SegFault/tb_ws/install/project2/share/project2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.948462] (project2) StdoutLine: {'line': b'-- Installing: /home/jestin/SegFault/tb_ws/install/project2/share/project2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.948516] (project2) StdoutLine: {'line': b'-- Installing: /home/jestin/SegFault/tb_ws/install/project2/share/project2/cmake/project2Config.cmake\n'}
+[7.948569] (project2) StdoutLine: {'line': b'-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/cmake/project2Config-version.cmake\n'}
+[7.948624] (project2) StdoutLine: {'line': b'-- Installing: /home/jestin/SegFault/tb_ws/install/project2/share/project2/package.xml\n'}
+[7.950010] (project2) CommandEnded: {'returncode': 0}
+[7.984427] (project2) JobEnded: {'identifier': 'project2', 'rc': 0}
+[7.984914] (-) EventReactorShutdown: {}

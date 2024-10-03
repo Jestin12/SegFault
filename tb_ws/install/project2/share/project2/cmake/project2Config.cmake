@@ -16,7 +16,7 @@ set(_project2_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT project2_FIND_QUIETLY)
-  message(STATUS "Found project2: 2.2.6 (${project2_DIR})")
+  message(STATUS "Found project2: 0.0.0 (${project2_DIR})")
 endif()
 
 # warn when using a deprecated package

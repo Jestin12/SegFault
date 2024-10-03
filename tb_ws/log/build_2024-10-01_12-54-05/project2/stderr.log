@@ -1,5 +1,0 @@
-[31mCMake Error at cmake_install.cmake:66 (file):
-  file INSTALL cannot find "/home/jestin/SegFault/tb_ws/src/project2/urdf":
-  No such file or directory.
-
-[0m

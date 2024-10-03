@@ -1,8 +1,6 @@
-/home/jestin/SegFault/tb_ws/install/project2/lib/project2/project2
-/home/jestin/SegFault/tb_ws/install/project2/share/project2//models/turtlebot3_burger/model.config
-/home/jestin/SegFault/tb_ws/install/project2/share/project2//models/turtlebot3_burger/model.sdf
-/home/jestin/SegFault/tb_ws/install/project2/share/project2//models/turtlebot3_burger/model-1_4.sdf
-/home/jestin/SegFault/tb_ws/install/project2/include//TBmain.hpp
+/home/jestin/SegFault/tb_ws/install/project2/lib/project2/robot
+/home/jestin/SegFault/tb_ws/install/project2/lib/project2/talker
+/home/jestin/SegFault/tb_ws/install/project2/lib/project2/listener
 /home/jestin/SegFault/tb_ws/install/project2/share/ament_index/resource_index/package_run_dependencies/project2
 /home/jestin/SegFault/tb_ws/install/project2/share/ament_index/resource_index/parent_prefix_path/project2
 /home/jestin/SegFault/tb_ws/install/project2/share/project2/environment/ament_prefix_path.sh

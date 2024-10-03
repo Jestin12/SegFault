@@ -1,0 +1,6 @@
+Invoking command in '/home/jestin/SegFault/tb_ws/build/project2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jestin/SegFault/tb_ws/src/project2 -DCMAKE_INSTALL_PREFIX=/home/jestin/SegFault/tb_ws/install/project2
+Invoked command in '/home/jestin/SegFault/tb_ws/build/project2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jestin/SegFault/tb_ws/src/project2 -DCMAKE_INSTALL_PREFIX=/home/jestin/SegFault/tb_ws/install/project2
+Invoking command in '/home/jestin/SegFault/tb_ws/build/project2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jestin/SegFault/tb_ws/build/project2 -- -j8 -l8
+Invoked command in '/home/jestin/SegFault/tb_ws/build/project2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jestin/SegFault/tb_ws/build/project2 -- -j8 -l8
+Invoking command in '/home/jestin/SegFault/tb_ws/build/project2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jestin/SegFault/tb_ws/build/project2
+Invoked command in '/home/jestin/SegFault/tb_ws/build/project2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jestin/SegFault/tb_ws/build/project2

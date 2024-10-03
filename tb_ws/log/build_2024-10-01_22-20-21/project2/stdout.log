@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target robot[0m
+[35m[1mConsolidate compiler generated dependencies of target talker[0m
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 33%] Built target robot
+[ 66%] Built target listener
+[ 83%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[100%] [32m[1mLinking CXX executable talker[0m
+[100%] Built target talker
+-- Install configuration: ""
+-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/lib/project2/robot
+-- Installing: /home/jestin/SegFault/tb_ws/install/project2/lib/project2/talker
+-- Set runtime path of "/home/jestin/SegFault/tb_ws/install/project2/lib/project2/talker" to ""
+-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/lib/project2/listener
+-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/ament_index/resource_index/package_run_dependencies/project2
+-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/ament_index/resource_index/parent_prefix_path/project2
+-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/environment/path.sh
+-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/environment/path.dsv
+-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/local_setup.bash
+-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/local_setup.sh
+-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/local_setup.zsh
+-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/local_setup.dsv
+-- Installing: /home/jestin/SegFault/tb_ws/install/project2/share/project2/package.dsv
+-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/ament_index/resource_index/packages/project2
+-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/cmake/project2Config.cmake
+-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/cmake/project2Config-version.cmake
+-- Up-to-date: /home/jestin/SegFault/tb_ws/install/project2/share/project2/package.xml

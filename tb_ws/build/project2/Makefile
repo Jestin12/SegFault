@@ -198,41 +198,115 @@ project2_uninstall/fast:
 .PHONY : project2_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named project2
+# Target rules for targets named robot
 
 # Build rule for target.
-project2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project2
-.PHONY : project2
+robot: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 robot
+.PHONY : robot
 
 # fast build rule for target.
-project2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project2.dir/build.make CMakeFiles/project2.dir/build
-.PHONY : project2/fast
+robot/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/build
+.PHONY : robot/fast
 
-src/TBmain.o: src/TBmain.cpp.o
-.PHONY : src/TBmain.o
+#=============================================================================
+# Target rules for targets named talker
+
+# Build rule for target.
+talker: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 talker
+.PHONY : talker
+
+# fast build rule for target.
+talker/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/build
+.PHONY : talker/fast
+
+#=============================================================================
+# Target rules for targets named listener
+
+# Build rule for target.
+listener: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 listener
+.PHONY : listener
+
+# fast build rule for target.
+listener/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/build
+.PHONY : listener/fast
+
+src/publisher_member_function.o: src/publisher_member_function.cpp.o
+.PHONY : src/publisher_member_function.o
 
 # target to build an object file
-src/TBmain.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project2.dir/build.make CMakeFiles/project2.dir/src/TBmain.cpp.o
-.PHONY : src/TBmain.cpp.o
+src/publisher_member_function.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/publisher_member_function.cpp.o
+.PHONY : src/publisher_member_function.cpp.o
 
-src/TBmain.i: src/TBmain.cpp.i
-.PHONY : src/TBmain.i
+src/publisher_member_function.i: src/publisher_member_function.cpp.i
+.PHONY : src/publisher_member_function.i
 
 # target to preprocess a source file
-src/TBmain.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project2.dir/build.make CMakeFiles/project2.dir/src/TBmain.cpp.i
-.PHONY : src/TBmain.cpp.i
+src/publisher_member_function.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/publisher_member_function.cpp.i
+.PHONY : src/publisher_member_function.cpp.i
 
-src/TBmain.s: src/TBmain.cpp.s
-.PHONY : src/TBmain.s
+src/publisher_member_function.s: src/publisher_member_function.cpp.s
+.PHONY : src/publisher_member_function.s
 
 # target to generate assembly for a file
-src/TBmain.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project2.dir/build.make CMakeFiles/project2.dir/src/TBmain.cpp.s
-.PHONY : src/TBmain.cpp.s
+src/publisher_member_function.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/talker.dir/build.make CMakeFiles/talker.dir/src/publisher_member_function.cpp.s
+.PHONY : src/publisher_member_function.cpp.s
+
+src/robot.o: src/robot.cpp.o
+.PHONY : src/robot.o
+
+# target to build an object file
+src/robot.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/src/robot.cpp.o
+.PHONY : src/robot.cpp.o
+
+src/robot.i: src/robot.cpp.i
+.PHONY : src/robot.i
+
+# target to preprocess a source file
+src/robot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/src/robot.cpp.i
+.PHONY : src/robot.cpp.i
+
+src/robot.s: src/robot.cpp.s
+.PHONY : src/robot.s
+
+# target to generate assembly for a file
+src/robot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot.dir/build.make CMakeFiles/robot.dir/src/robot.cpp.s
+.PHONY : src/robot.cpp.s
+
+src/subscriber_member_function.o: src/subscriber_member_function.cpp.o
+.PHONY : src/subscriber_member_function.o
+
+# target to build an object file
+src/subscriber_member_function.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o
+.PHONY : src/subscriber_member_function.cpp.o
+
+src/subscriber_member_function.i: src/subscriber_member_function.cpp.i
+.PHONY : src/subscriber_member_function.i
+
+# target to preprocess a source file
+src/subscriber_member_function.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/src/subscriber_member_function.cpp.i
+.PHONY : src/subscriber_member_function.cpp.i
+
+src/subscriber_member_function.s: src/subscriber_member_function.cpp.s
+.PHONY : src/subscriber_member_function.s
+
+# target to generate assembly for a file
+src/subscriber_member_function.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/listener.dir/build.make CMakeFiles/listener.dir/src/subscriber_member_function.cpp.s
+.PHONY : src/subscriber_member_function.cpp.s
 
 # Help Target
 help:
@@ -249,10 +323,18 @@ help:
 	@echo "... test"
 	@echo "... project2_uninstall"
 	@echo "... uninstall"
-	@echo "... project2"
-	@echo "... src/TBmain.o"
-	@echo "... src/TBmain.i"
-	@echo "... src/TBmain.s"
+	@echo "... listener"
+	@echo "... robot"
+	@echo "... talker"
+	@echo "... src/publisher_member_function.o"
+	@echo "... src/publisher_member_function.i"
+	@echo "... src/publisher_member_function.s"
+	@echo "... src/robot.o"
+	@echo "... src/robot.i"
+	@echo "... src/robot.s"
+	@echo "... src/subscriber_member_function.o"
+	@echo "... src/subscriber_member_function.i"
+	@echo "... src/subscriber_member_function.s"
 .PHONY : help
 
 
