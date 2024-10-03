@@ -712,8 +712,4 @@ CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o
  /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h
  /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h
  /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h
- /home/jestin/SegFault/tb_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/CCamera.hpp
- /home/jestin/SegFault/tb_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/CLidar.hpp
- /home/jestin/SegFault/tb_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/COdometer.hpp
- /home/jestin/SegFault/tb_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/CDriver.hpp
 

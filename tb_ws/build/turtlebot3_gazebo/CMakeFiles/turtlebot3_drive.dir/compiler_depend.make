@@ -710,16 +710,8 @@ CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o: /home/jestin/SegFaul
   /opt/ros/humble/include/tf2/tf2/visibility_control.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
   /opt/ros/humble/include/tf2/tf2/LinearMath/QuadWord.h \
-  /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
-  /home/jestin/SegFault/tb_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/CCamera.hpp \
-  /home/jestin/SegFault/tb_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/CLidar.hpp \
-  /home/jestin/SegFault/tb_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/COdometer.hpp \
-  /home/jestin/SegFault/tb_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/CDriver.hpp
+  /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h
 
-
-/home/jestin/SegFault/tb_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/COdometer.hpp:
-
-/home/jestin/SegFault/tb_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/CLidar.hpp:
 
 /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h:
 
@@ -1469,8 +1461,6 @@ CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o: /home/jestin/SegFaul
 
 /usr/include/c++/11/bits/basic_string.h:
 
-/home/jestin/SegFault/tb_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/CDriver.hpp:
-
 /usr/include/c++/11/pstl/glue_memory_defs.h:
 
 /usr/include/c++/11/csignal:
@@ -1984,8 +1974,6 @@ CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o: /home/jestin/SegFaul
 /usr/include/c++/11/optional:
 
 /opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:
-
-/home/jestin/SegFault/tb_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/CCamera.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp:
 

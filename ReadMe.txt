@@ -151,6 +151,43 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
         )
     )
 
+10. ADDING THE SRC FOLDER INTO A REPOSITORY
+
+For gazebo we git cloned the src folder and all its contents, when we want to commit the workspace to our own 
+repository we will likely encounter a git error, something like this:
+
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> tb_ws/src/turtlebot3_simulations
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached tb_ws/src/turtlebot3_simulations
+hint: 
+hint: See "git help submodule" for more information.
+
+To resolve this:
+
+#1 Remove the subdirectory's .git folder: Navigate to the subdirectory and remove the .git folder:
+
+rm -rf tb_ws/src/turtlebot3_simulations/.git		// or whatever directory that won't push
+This will ensure that the subdirectory is treated as regular files and not as a nested Git repository.
+
+
+#2 Add the subdirectory to your main repository:
+git add tb_ws/src/turtlebot3_simulations
+
+
+#3 Commit the changes:
+git commit -m "Add turtlebot3_simulations without submodule"
+
+
+#4 Push the changes:
+git push origin main
 
 
  
