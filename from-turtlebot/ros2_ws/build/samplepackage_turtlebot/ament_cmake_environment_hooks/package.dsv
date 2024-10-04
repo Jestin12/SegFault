@@ -1,0 +1,4 @@
+source;share/samplepackage_turtlebot/local_setup.bash
+source;share/samplepackage_turtlebot/local_setup.dsv
+source;share/samplepackage_turtlebot/local_setup.sh
+source;share/samplepackage_turtlebot/local_setup.zsh

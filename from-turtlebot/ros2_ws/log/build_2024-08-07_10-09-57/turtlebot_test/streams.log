@@ -1,0 +1,38 @@
+[8.276s] Invoking command in '/home/ubuntu/ros2_ws/src/turtlebot_test': PYTHONPATH=/home/ubuntu/ros2_ws/build/turtlebot_test/prefix_override:/home/ubuntu/ros2_ws/install/turtlebot_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot_test build --build-base /home/ubuntu/ros2_ws/build/turtlebot_test/build install --record /home/ubuntu/ros2_ws/build/turtlebot_test/install.log --single-version-externally-managed install_data
+[10.992s] running egg_info
+[10.998s] writing ../../build/turtlebot_test/turtlebot_test.egg-info/PKG-INFO
+[11.000s] writing dependency_links to ../../build/turtlebot_test/turtlebot_test.egg-info/dependency_links.txt
+[11.003s] writing entry points to ../../build/turtlebot_test/turtlebot_test.egg-info/entry_points.txt
+[11.005s] writing requirements to ../../build/turtlebot_test/turtlebot_test.egg-info/requires.txt
+[11.007s] writing top-level names to ../../build/turtlebot_test/turtlebot_test.egg-info/top_level.txt
+[11.025s] reading manifest file '../../build/turtlebot_test/turtlebot_test.egg-info/SOURCES.txt'
+[11.041s] writing manifest file '../../build/turtlebot_test/turtlebot_test.egg-info/SOURCES.txt'
+[11.042s] running build
+[11.043s] running build_py
+[11.045s] copying turtlebot_test/testScan.py -> /home/ubuntu/ros2_ws/build/turtlebot_test/build/lib/turtlebot_test
+[11.050s] copying turtlebot_test/testCamera.py -> /home/ubuntu/ros2_ws/build/turtlebot_test/build/lib/turtlebot_test
+[11.051s] copying turtlebot_test/testScript.py -> /home/ubuntu/ros2_ws/build/turtlebot_test/build/lib/turtlebot_test
+[11.054s] copying turtlebot_test/testMotor.py -> /home/ubuntu/ros2_ws/build/turtlebot_test/build/lib/turtlebot_test
+[11.057s] running install
+[11.060s] running install_lib
+[11.067s] copying /home/ubuntu/ros2_ws/build/turtlebot_test/build/lib/turtlebot_test/testScan.py -> /home/ubuntu/ros2_ws/install/turtlebot_test/lib/python3.10/site-packages/turtlebot_test
+[11.071s] copying /home/ubuntu/ros2_ws/build/turtlebot_test/build/lib/turtlebot_test/testCamera.py -> /home/ubuntu/ros2_ws/install/turtlebot_test/lib/python3.10/site-packages/turtlebot_test
+[11.073s] copying /home/ubuntu/ros2_ws/build/turtlebot_test/build/lib/turtlebot_test/testScript.py -> /home/ubuntu/ros2_ws/install/turtlebot_test/lib/python3.10/site-packages/turtlebot_test
+[11.075s] copying /home/ubuntu/ros2_ws/build/turtlebot_test/build/lib/turtlebot_test/testMotor.py -> /home/ubuntu/ros2_ws/install/turtlebot_test/lib/python3.10/site-packages/turtlebot_test
+[11.082s] byte-compiling /home/ubuntu/ros2_ws/install/turtlebot_test/lib/python3.10/site-packages/turtlebot_test/testScan.py to testScan.cpython-310.pyc
+[11.089s] byte-compiling /home/ubuntu/ros2_ws/install/turtlebot_test/lib/python3.10/site-packages/turtlebot_test/testCamera.py to testCamera.cpython-310.pyc
+[11.095s] byte-compiling /home/ubuntu/ros2_ws/install/turtlebot_test/lib/python3.10/site-packages/turtlebot_test/testScript.py to testScript.cpython-310.pyc
+[11.101s] byte-compiling /home/ubuntu/ros2_ws/install/turtlebot_test/lib/python3.10/site-packages/turtlebot_test/testMotor.py to testMotor.cpython-310.pyc
+[11.107s] running install_data
+[11.109s] running install_egg_info
+[11.125s] removing '/home/ubuntu/ros2_ws/install/turtlebot_test/lib/python3.10/site-packages/turtlebot_test-0.0.0-py3.10.egg-info' (and everything under it)
+[11.129s] Copying ../../build/turtlebot_test/turtlebot_test.egg-info to /home/ubuntu/ros2_ws/install/turtlebot_test/lib/python3.10/site-packages/turtlebot_test-0.0.0-py3.10.egg-info
+[11.146s] running install_scripts
+[11.343s] Installing my_node script to /home/ubuntu/ros2_ws/install/turtlebot_test/lib/turtlebot_test
+[11.345s] Installing testCamera script to /home/ubuntu/ros2_ws/install/turtlebot_test/lib/turtlebot_test
+[11.348s] Installing testLED script to /home/ubuntu/ros2_ws/install/turtlebot_test/lib/turtlebot_test
+[11.350s] Installing testMotor script to /home/ubuntu/ros2_ws/install/turtlebot_test/lib/turtlebot_test
+[11.353s] Installing testScan script to /home/ubuntu/ros2_ws/install/turtlebot_test/lib/turtlebot_test
+[11.355s] Installing testScript script to /home/ubuntu/ros2_ws/install/turtlebot_test/lib/turtlebot_test
+[11.359s] writing list of installed files to '/home/ubuntu/ros2_ws/build/turtlebot_test/install.log'
+[11.615s] Invoked command in '/home/ubuntu/ros2_ws/src/turtlebot_test' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/turtlebot_test/prefix_override:/home/ubuntu/ros2_ws/install/turtlebot_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtlebot_test build --build-base /home/ubuntu/ros2_ws/build/turtlebot_test/build install --record /home/ubuntu/ros2_ws/build/turtlebot_test/install.log --single-version-externally-managed install_data

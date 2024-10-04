@@ -1,0 +1,27 @@
+[11.896s] Invoking command in '/home/ubuntu/ros2_ws/src/self_test': PYTHONPATH=/home/ubuntu/ros2_ws/build/self_test/prefix_override:/home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/self_test build --build-base /home/ubuntu/ros2_ws/build/self_test/build install --record /home/ubuntu/ros2_ws/build/self_test/install.log --single-version-externally-managed install_data
+[15.329s] running egg_info
+[15.337s] writing ../../build/self_test/self_test.egg-info/PKG-INFO
+[15.345s] writing dependency_links to ../../build/self_test/self_test.egg-info/dependency_links.txt
+[15.348s] writing entry points to ../../build/self_test/self_test.egg-info/entry_points.txt
+[15.351s] writing requirements to ../../build/self_test/self_test.egg-info/requires.txt
+[15.359s] writing top-level names to ../../build/self_test/self_test.egg-info/top_level.txt
+[15.377s] reading manifest file '../../build/self_test/self_test.egg-info/SOURCES.txt'
+[15.386s] adding license file 'LICENSE'
+[15.394s] writing manifest file '../../build/self_test/self_test.egg-info/SOURCES.txt'
+[15.396s] running build
+[15.398s] running build_py
+[15.409s] running install
+[15.415s] running install_lib
+[15.447s] running install_data
+[15.458s] running install_egg_info
+[15.480s] removing '/home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test-0.0.0-py3.10.egg-info' (and everything under it)
+[15.494s] Copying ../../build/self_test/self_test.egg-info to /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test-0.0.0-py3.10.egg-info
+[15.510s] running install_scripts
+[15.787s] Installing my_node script to /home/ubuntu/ros2_ws/install/self_test/lib/test_package
+[17.938s] Installing testCamera script to /home/ubuntu/ros2_ws/install/self_test/lib/test_package
+[17.940s] Installing testLED script to /home/ubuntu/ros2_ws/install/self_test/lib/test_package
+[17.942s] Installing testMotor script to /home/ubuntu/ros2_ws/install/self_test/lib/test_package
+[17.944s] Installing testScan script to /home/ubuntu/ros2_ws/install/self_test/lib/test_package
+[17.947s] Installing testScript script to /home/ubuntu/ros2_ws/install/self_test/lib/test_package
+[17.949s] writing list of installed files to '/home/ubuntu/ros2_ws/build/self_test/install.log'
+[18.391s] Invoked command in '/home/ubuntu/ros2_ws/src/self_test' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/self_test/prefix_override:/home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/self_test build --build-base /home/ubuntu/ros2_ws/build/self_test/build install --record /home/ubuntu/ros2_ws/build/self_test/install.log --single-version-externally-managed install_data

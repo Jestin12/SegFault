@@ -1,0 +1,70 @@
+#!/bin/bash
+
+# # Function to handle SIGINT
+# cleanup() {
+#     echo "Caught SIGINT, cleaning up..."
+#     # Send SIGINT to all child processes
+#     #pkill -P $$
+#     # Explicitly kill the background process
+#     if [[ -n "$background_pid" ]]; then
+#         kill -INT $background_pid
+#         wait $background_pid 2>/dev/null
+#     fi
+#     exit 0
+# }
+
+# # Trap SIGINT
+# trap cleanup SIGINT
+
+# # Start the ROS2 launch command in the background
+# ros2 launch turtlebot_test self_test.launch.py &
+# background_pid=$!
+
+# # Sleep for 600 seconds
+# sleep 600 &
+
+# # Ensure unbuffered output for the foreground process
+# stdbuf -oL ros2 run turtlebot_test testScript
+
+# # Wait for the background process
+# wait $background_pid
+
+# # After the foreground process has finished, exit the background process
+# if [[ -n "$background_pid" ]]; then
+#     kill -INT $background_pid
+#     wait $background_pid 2>/dev/null
+# fi
+
+# echo "All processes have finished."
+
+
+
+# Function to handle SIGINT and SIGTERM
+cleanup() {
+    echo "Caught signal, cleaning up..."
+    # Explicitly kill the background process
+    if [[ -n "$background_pid" ]]; then
+        kill -INT $background_pid
+        wait $background_pid 2>/dev/null
+    fi
+    
+}
+
+# Trap SIGINT and SIGTERM
+trap cleanup SIGINT SIGTERM
+
+# Start the ROS2 launch command in the background
+ros2 launch turtlebot_test self_test.launch.py &
+background_pid=$!
+
+# Sleep for 600 seconds in the background
+sleep 800 &
+
+# Ensure unbuffered output for the foreground process
+ros2 run turtlebot_test testScript
+
+# Wait for the foreground process
+wait $background_pid
+
+# After the foreground process has finished, exit the background process
+cleanup

@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.002783] (-) JobUnselected: {'identifier': 'camera_ros'}
+[0.003847] (-) JobUnselected: {'identifier': 'samplepackage_turtlebot'}
+[0.005021] (-) JobUnselected: {'identifier': 'self_test'}
+[0.006382] (-) JobUnselected: {'identifier': 'test_package'}
+[0.006886] (-) JobUnselected: {'identifier': 'turtlebot_test'}
+[0.007271] (-) EventReactorShutdown: {}

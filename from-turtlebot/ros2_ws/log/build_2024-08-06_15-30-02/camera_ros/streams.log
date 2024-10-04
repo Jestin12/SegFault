@@ -1,0 +1,92 @@
+[0.279s] Invoking command in '/home/ubuntu/ros2_ws/build/camera_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/.mtrx/selfTest/install/test_package:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws/src/camera_ros -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/camera_ros
+[7.082s] -- The C compiler identification is GNU 11.4.0
+[9.097s] -- The CXX compiler identification is GNU 11.4.0
+[9.278s] -- Detecting C compiler ABI info
+[10.592s] -- Detecting C compiler ABI info - done
+[10.671s] -- Check for working C compiler: /usr/bin/cc - skipped
+[10.876s] -- Detecting C compile features
+[11.942s] -- Detecting C compile features - done
+[11.998s] -- Detecting CXX compiler ABI info
+[14.680s] -- Detecting CXX compiler ABI info - done
+[14.763s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[14.766s] -- Detecting CXX compile features
+[14.771s] -- Detecting CXX compile features - done
+[14.900s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[15.114s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[17.706s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[20.108s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[22.045s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[22.247s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[22.649s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[23.116s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[23.730s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[25.500s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[25.594s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[27.292s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[27.754s] -- Found FastRTPS: /opt/ros/humble/include  
+[28.535s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[28.817s] -- Looking for pthread.h
+[29.744s] -- Looking for pthread.h - found
+[29.749s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[30.517s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[30.528s] -- Found Threads: TRUE  
+[32.587s] -- Found rclcpp_components: 16.0.9 (/opt/ros/humble/share/rclcpp_components/cmake)
+[33.661s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[35.121s] -- Found camera_info_manager: 3.1.9 (/opt/ros/humble/share/camera_info_manager/cmake)
+[35.853s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[36.121s] -- Checking for module 'libcamera>=0.1'
+[36.266s] --   Found libcamera, version 0.1.0
+[36.686s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[38.662s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[38.665s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ubuntu/ros2_ws/src/camera_ros/include>
+[38.666s] -- Configured cppcheck exclude dirs and/or files: 
+[38.686s] -- Added test 'flake8' to check Python code syntax and style conventions
+[38.715s] -- Added test 'lint_cmake' to check CMake code style
+[38.732s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[38.750s] -- Added test 'xmllint' to check XML markup files
+[38.771s] -- Configuring done
+[39.025s] -- Generating done
+[39.045s] -- Build files have been written to: /home/ubuntu/ros2_ws/build/camera_ros
+[39.168s] Invoked command in '/home/ubuntu/ros2_ws/build/camera_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/.mtrx/selfTest/install/test_package:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws/src/camera_ros -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/camera_ros
+[39.187s] Invoking command in '/home/ubuntu/ros2_ws/build/camera_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/.mtrx/selfTest/install/test_package:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/camera_ros -- -j4 -l4
+[39.662s] [ 16%] [32mBuilding CXX object CMakeFiles/utils.dir/src/clamp.cpp.o[0m
+[39.664s] [ 16%] [32mBuilding CXX object CMakeFiles/camera_node.dir/rclcpp_components/node_main_camera_node.cpp.o[0m
+[39.671s] [ 33%] [32mBuilding CXX object CMakeFiles/utils.dir/src/cv_to_pv.cpp.o[0m
+[39.672s] [ 33%] [32mBuilding CXX object CMakeFiles/utils.dir/src/format_mapping.cpp.o[0m
+[87.575s] [ 41%] [32mBuilding CXX object CMakeFiles/utils.dir/src/pretty_print.cpp.o[0m
+[105.296s] [ 50%] [32mBuilding CXX object CMakeFiles/utils.dir/src/pv_to_cv.cpp.o[0m
+[132.811s] [ 58%] [32mBuilding CXX object CMakeFiles/utils.dir/src/types.cpp.o[0m
+[156.203s] [ 66%] [32mBuilding CXX object CMakeFiles/utils.dir/src/type_extent.cpp.o[0m
+[165.987s] [ 75%] [32mBuilding CXX object CMakeFiles/utils.dir/src/parameter_conflict_check.cpp.o[0m
+[171.696s] [ 83%] [32m[1mLinking CXX executable camera_node[0m
+[173.952s] [ 83%] Built target camera_node
+[178.207s] [ 83%] Built target utils
+[178.528s] [ 91%] [32mBuilding CXX object CMakeFiles/camera_component.dir/src/CameraNode.cpp.o[0m
+[263.870s] [100%] [32m[1mLinking CXX shared library libcamera_component.so[0m
+[270.636s] [100%] Built target camera_component
+[271.858s] Invoked command in '/home/ubuntu/ros2_ws/build/camera_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/.mtrx/selfTest/install/test_package:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/camera_ros -- -j4 -l4
+[273.264s] Invoking command in '/home/ubuntu/ros2_ws/build/camera_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/.mtrx/selfTest/install/test_package:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/camera_ros
+[273.331s] -- Install configuration: ""
+[273.337s] -- Installing: /home/ubuntu/ros2_ws/install/camera_ros/lib/camera_ros/camera_node
+[273.361s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/camera_ros/lib/camera_ros/camera_node" to ""
+[273.362s] -- Installing: /home/ubuntu/ros2_ws/install/camera_ros/lib/libcamera_component.so
+[273.428s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/camera_ros/lib/libcamera_component.so" to ""
+[273.433s] -- Installing: /home/ubuntu/ros2_ws/install/camera_ros/share/camera_ros//launch
+[273.437s] -- Installing: /home/ubuntu/ros2_ws/install/camera_ros/share/camera_ros//launch/camera.launch.py
+[273.446s] -- Installing: /home/ubuntu/ros2_ws/install/camera_ros/share/ament_index/resource_index/package_run_dependencies/camera_ros
+[273.452s] -- Installing: /home/ubuntu/ros2_ws/install/camera_ros/share/ament_index/resource_index/parent_prefix_path/camera_ros
+[273.471s] -- Installing: /home/ubuntu/ros2_ws/install/camera_ros/share/camera_ros/environment/ament_prefix_path.sh
+[273.477s] -- Installing: /home/ubuntu/ros2_ws/install/camera_ros/share/camera_ros/environment/ament_prefix_path.dsv
+[273.481s] -- Installing: /home/ubuntu/ros2_ws/install/camera_ros/share/camera_ros/environment/path.sh
+[273.485s] -- Installing: /home/ubuntu/ros2_ws/install/camera_ros/share/camera_ros/environment/path.dsv
+[273.489s] -- Installing: /home/ubuntu/ros2_ws/install/camera_ros/share/camera_ros/local_setup.bash
+[273.492s] -- Installing: /home/ubuntu/ros2_ws/install/camera_ros/share/camera_ros/local_setup.sh
+[273.496s] -- Installing: /home/ubuntu/ros2_ws/install/camera_ros/share/camera_ros/local_setup.zsh
+[273.499s] -- Installing: /home/ubuntu/ros2_ws/install/camera_ros/share/camera_ros/local_setup.dsv
+[273.503s] -- Installing: /home/ubuntu/ros2_ws/install/camera_ros/share/camera_ros/package.dsv
+[273.508s] -- Installing: /home/ubuntu/ros2_ws/install/camera_ros/share/ament_index/resource_index/packages/camera_ros
+[273.512s] -- Installing: /home/ubuntu/ros2_ws/install/camera_ros/share/ament_index/resource_index/rclcpp_components/camera_ros
+[273.518s] -- Installing: /home/ubuntu/ros2_ws/install/camera_ros/share/camera_ros/cmake/camera_rosConfig.cmake
+[273.522s] -- Installing: /home/ubuntu/ros2_ws/install/camera_ros/share/camera_ros/cmake/camera_rosConfig-version.cmake
+[273.526s] -- Installing: /home/ubuntu/ros2_ws/install/camera_ros/share/camera_ros/package.xml
+[273.573s] Invoked command in '/home/ubuntu/ros2_ws/build/camera_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/.mtrx/selfTest/install/test_package:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/camera_ros

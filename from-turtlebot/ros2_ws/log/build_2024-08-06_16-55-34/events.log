@@ -1,0 +1,188 @@
+[0.000000] (-) TimerEvent: {}
+[0.001531] (-) JobUnselected: {'identifier': 'camera_ros'}
+[0.002264] (-) JobUnselected: {'identifier': 'samplepackage_turtlebot'}
+[0.006877] (-) JobUnselected: {'identifier': 'self_test'}
+[0.008784] (-) JobUnselected: {'identifier': 'test_package'}
+[0.010240] (turtlebot_test) JobQueued: {'identifier': 'turtlebot_test', 'dependencies': OrderedDict()}
+[0.011073] (turtlebot_test) JobStarted: {'identifier': 'turtlebot_test'}
+[0.097461] (-) TimerEvent: {}
+[0.198998] (-) TimerEvent: {}
+[0.300726] (-) TimerEvent: {}
+[0.402564] (-) TimerEvent: {}
+[0.504985] (-) TimerEvent: {}
+[0.606461] (-) TimerEvent: {}
+[0.707739] (-) TimerEvent: {}
+[0.809509] (-) TimerEvent: {}
+[0.910954] (-) TimerEvent: {}
+[1.012567] (-) TimerEvent: {}
+[1.114217] (-) TimerEvent: {}
+[1.215771] (-) TimerEvent: {}
+[1.317034] (-) TimerEvent: {}
+[1.418553] (-) TimerEvent: {}
+[1.520806] (-) TimerEvent: {}
+[1.622321] (-) TimerEvent: {}
+[1.723695] (-) TimerEvent: {}
+[1.824912] (-) TimerEvent: {}
+[1.926507] (-) TimerEvent: {}
+[2.027793] (-) TimerEvent: {}
+[2.130176] (-) TimerEvent: {}
+[2.235021] (-) TimerEvent: {}
+[2.337958] (-) TimerEvent: {}
+[2.440179] (-) TimerEvent: {}
+[2.541747] (-) TimerEvent: {}
+[2.643330] (-) TimerEvent: {}
+[2.745189] (-) TimerEvent: {}
+[2.846602] (-) TimerEvent: {}
+[2.948111] (-) TimerEvent: {}
+[3.049561] (-) TimerEvent: {}
+[3.151437] (-) TimerEvent: {}
+[3.252832] (-) TimerEvent: {}
+[3.354093] (-) TimerEvent: {}
+[3.455363] (-) TimerEvent: {}
+[3.556937] (-) TimerEvent: {}
+[3.660080] (-) TimerEvent: {}
+[3.763517] (-) TimerEvent: {}
+[3.865823] (-) TimerEvent: {}
+[3.967509] (-) TimerEvent: {}
+[4.069111] (-) TimerEvent: {}
+[4.170524] (-) TimerEvent: {}
+[4.272416] (-) TimerEvent: {}
+[4.374883] (-) TimerEvent: {}
+[4.476680] (-) TimerEvent: {}
+[4.578300] (-) TimerEvent: {}
+[4.679682] (-) TimerEvent: {}
+[4.780978] (-) TimerEvent: {}
+[4.882459] (-) TimerEvent: {}
+[4.983786] (-) TimerEvent: {}
+[5.085093] (-) TimerEvent: {}
+[5.186492] (-) TimerEvent: {}
+[5.287782] (-) TimerEvent: {}
+[5.389677] (-) TimerEvent: {}
+[5.491184] (-) TimerEvent: {}
+[5.595518] (-) TimerEvent: {}
+[5.697051] (-) TimerEvent: {}
+[5.798561] (-) TimerEvent: {}
+[5.899851] (-) TimerEvent: {}
+[6.001530] (-) TimerEvent: {}
+[6.103241] (-) TimerEvent: {}
+[6.204699] (-) TimerEvent: {}
+[6.306438] (-) TimerEvent: {}
+[6.408328] (-) TimerEvent: {}
+[6.510147] (-) TimerEvent: {}
+[6.613945] (-) TimerEvent: {}
+[6.716427] (-) TimerEvent: {}
+[6.818776] (-) TimerEvent: {}
+[6.920068] (-) TimerEvent: {}
+[7.021955] (-) TimerEvent: {}
+[7.123603] (-) TimerEvent: {}
+[7.226661] (-) TimerEvent: {}
+[7.328228] (-) TimerEvent: {}
+[7.430388] (-) TimerEvent: {}
+[7.532035] (-) TimerEvent: {}
+[7.633812] (-) TimerEvent: {}
+[7.735482] (-) TimerEvent: {}
+[7.836923] (-) TimerEvent: {}
+[7.938627] (-) TimerEvent: {}
+[8.040198] (-) TimerEvent: {}
+[8.141871] (-) TimerEvent: {}
+[8.243871] (-) TimerEvent: {}
+[8.346156] (-) TimerEvent: {}
+[8.447453] (-) TimerEvent: {}
+[8.548650] (-) TimerEvent: {}
+[8.650593] (-) TimerEvent: {}
+[8.752104] (-) TimerEvent: {}
+[8.854024] (-) TimerEvent: {}
+[8.956260] (-) TimerEvent: {}
+[9.058026] (-) TimerEvent: {}
+[9.159793] (-) TimerEvent: {}
+[9.261506] (-) TimerEvent: {}
+[9.363010] (-) TimerEvent: {}
+[9.464610] (-) TimerEvent: {}
+[9.566243] (-) TimerEvent: {}
+[9.669119] (-) TimerEvent: {}
+[9.771816] (-) TimerEvent: {}
+[9.873463] (-) TimerEvent: {}
+[9.975116] (-) TimerEvent: {}
+[10.076632] (-) TimerEvent: {}
+[10.097132] (turtlebot_test) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turtlebot_test', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/turtlebot_test/build', 'install', '--record', '/home/ubuntu/ros2_ws/build/turtlebot_test/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws/src/turtlebot_test', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '172.20.10.6 38666 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws/install/camera_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/install:/home/ubuntu/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '14', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/turtlebot_test:/home/ubuntu/ros2_ws/install/samplepackage_turtlebot:/home/ubuntu/ros2_ws/install/my_package:/home/ubuntu/ros2_ws/install/camera_ros:/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/ros2_ws/build/turtlebot_test', 'TURTLEBOT3_MODEL': 'burger', 'SSH_CONNECTION': '172.20.10.6 38666 172.20.10.9 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-01', 'PYTHONPATH': '/home/ubuntu/ros2_ws/build/turtlebot_test/prefix_override:/home/ubuntu/ros2_ws/install/turtlebot_test/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/turtlebot_test/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/test_package/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/samplepackage_turtlebot:/home/ubuntu/ros2_ws/install/camera_ros:/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/ld08_driver'}, 'shell': False}
+[10.177105] (-) TimerEvent: {}
+[10.278618] (-) TimerEvent: {}
+[10.380171] (-) TimerEvent: {}
+[10.485826] (-) TimerEvent: {}
+[10.587115] (-) TimerEvent: {}
+[10.688404] (-) TimerEvent: {}
+[10.789671] (-) TimerEvent: {}
+[10.891276] (-) TimerEvent: {}
+[10.993430] (-) TimerEvent: {}
+[11.095170] (-) TimerEvent: {}
+[11.196603] (-) TimerEvent: {}
+[11.298697] (-) TimerEvent: {}
+[11.400378] (-) TimerEvent: {}
+[11.501920] (-) TimerEvent: {}
+[11.603713] (-) TimerEvent: {}
+[11.706228] (-) TimerEvent: {}
+[11.808085] (-) TimerEvent: {}
+[11.910930] (-) TimerEvent: {}
+[12.012209] (-) TimerEvent: {}
+[12.113580] (-) TimerEvent: {}
+[12.216389] (-) TimerEvent: {}
+[12.318454] (-) TimerEvent: {}
+[12.419862] (-) TimerEvent: {}
+[12.522170] (-) TimerEvent: {}
+[12.623637] (-) TimerEvent: {}
+[12.724945] (-) TimerEvent: {}
+[12.826468] (-) TimerEvent: {}
+[12.927955] (-) TimerEvent: {}
+[13.029767] (-) TimerEvent: {}
+[13.131718] (-) TimerEvent: {}
+[13.233138] (-) TimerEvent: {}
+[13.268199] (turtlebot_test) StdoutLine: {'line': b'running egg_info\n'}
+[13.275709] (turtlebot_test) StdoutLine: {'line': b'writing ../../build/turtlebot_test/turtlebot_test.egg-info/PKG-INFO\n'}
+[13.282781] (turtlebot_test) StdoutLine: {'line': b'writing dependency_links to ../../build/turtlebot_test/turtlebot_test.egg-info/dependency_links.txt\n'}
+[13.285572] (turtlebot_test) StdoutLine: {'line': b'writing entry points to ../../build/turtlebot_test/turtlebot_test.egg-info/entry_points.txt\n'}
+[13.287424] (turtlebot_test) StdoutLine: {'line': b'writing requirements to ../../build/turtlebot_test/turtlebot_test.egg-info/requires.txt\n'}
+[13.288920] (turtlebot_test) StdoutLine: {'line': b'writing top-level names to ../../build/turtlebot_test/turtlebot_test.egg-info/top_level.txt\n'}
+[13.311889] (turtlebot_test) StdoutLine: {'line': b"reading manifest file '../../build/turtlebot_test/turtlebot_test.egg-info/SOURCES.txt'\n"}
+[13.333578] (-) TimerEvent: {}
+[13.360438] (turtlebot_test) StdoutLine: {'line': b"writing manifest file '../../build/turtlebot_test/turtlebot_test.egg-info/SOURCES.txt'\n"}
+[13.363020] (turtlebot_test) StdoutLine: {'line': b'running build\n'}
+[13.364213] (turtlebot_test) StdoutLine: {'line': b'running build_py\n'}
+[13.434047] (-) TimerEvent: {}
+[13.508575] (turtlebot_test) StdoutLine: {'line': b'copying turtlebot_test/testAll.py -> /home/ubuntu/ros2_ws/build/turtlebot_test/build/lib/turtlebot_test\n'}
+[13.514812] (turtlebot_test) StdoutLine: {'line': b'copying turtlebot_test/testScript.py -> /home/ubuntu/ros2_ws/build/turtlebot_test/build/lib/turtlebot_test\n'}
+[13.520245] (turtlebot_test) StdoutLine: {'line': b'running install\n'}
+[13.523530] (turtlebot_test) StdoutLine: {'line': b'running install_lib\n'}
+[13.534766] (-) TimerEvent: {}
+[13.539387] (turtlebot_test) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/turtlebot_test/build/lib/turtlebot_test/testAll.py -> /home/ubuntu/ros2_ws/install/turtlebot_test/lib/python3.10/site-packages/turtlebot_test\n'}
+[13.543742] (turtlebot_test) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/turtlebot_test/build/lib/turtlebot_test/testScript.py -> /home/ubuntu/ros2_ws/install/turtlebot_test/lib/python3.10/site-packages/turtlebot_test\n'}
+[13.556501] (turtlebot_test) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/turtlebot_test/lib/python3.10/site-packages/turtlebot_test/testAll.py to testAll.cpython-310.pyc\n'}
+[13.561405] (turtlebot_test) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/turtlebot_test/lib/python3.10/site-packages/turtlebot_test/testScript.py to testScript.cpython-310.pyc\n'}
+[13.570195] (turtlebot_test) StdoutLine: {'line': b'running install_data\n'}
+[13.634824] (-) TimerEvent: {}
+[13.731222] (turtlebot_test) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.744750] (-) TimerEvent: {}
+[13.762926] (turtlebot_test) StdoutLine: {'line': b"removing '/home/ubuntu/ros2_ws/install/turtlebot_test/lib/python3.10/site-packages/turtlebot_test-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[13.769873] (turtlebot_test) StdoutLine: {'line': b'Copying ../../build/turtlebot_test/turtlebot_test.egg-info to /home/ubuntu/ros2_ws/install/turtlebot_test/lib/python3.10/site-packages/turtlebot_test-0.0.0-py3.10.egg-info\n'}
+[13.789216] (turtlebot_test) StdoutLine: {'line': b'running install_scripts\n'}
+[13.845084] (-) TimerEvent: {}
+[13.946739] (-) TimerEvent: {}
+[14.017256] (turtlebot_test) StdoutLine: {'line': b'Installing my_node script to /home/ubuntu/ros2_ws/install/turtlebot_test/lib/turtlebot_test\n'}
+[14.310298] (-) TimerEvent: {}
+[14.313151] (turtlebot_test) StdoutLine: {'line': b'Installing testCamera script to /home/ubuntu/ros2_ws/install/turtlebot_test/lib/turtlebot_test\n'}
+[14.315193] (turtlebot_test) StdoutLine: {'line': b'Installing testLED script to /home/ubuntu/ros2_ws/install/turtlebot_test/lib/turtlebot_test\n'}
+[14.317536] (turtlebot_test) StdoutLine: {'line': b'Installing testMotor script to /home/ubuntu/ros2_ws/install/turtlebot_test/lib/turtlebot_test\n'}
+[14.319219] (turtlebot_test) StdoutLine: {'line': b'Installing testScan script to /home/ubuntu/ros2_ws/install/turtlebot_test/lib/turtlebot_test\n'}
+[14.320682] (turtlebot_test) StdoutLine: {'line': b'Installing testScript script to /home/ubuntu/ros2_ws/install/turtlebot_test/lib/turtlebot_test\n'}
+[14.326003] (turtlebot_test) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/turtlebot_test/install.log'\n"}
+[14.410615] (-) TimerEvent: {}
+[14.512313] (-) TimerEvent: {}
+[14.611976] (turtlebot_test) CommandEnded: {'returncode': 0}
+[14.617998] (-) TimerEvent: {}
+[14.719662] (-) TimerEvent: {}
+[14.821255] (-) TimerEvent: {}
+[14.922735] (-) TimerEvent: {}
+[15.024187] (-) TimerEvent: {}
+[15.125748] (-) TimerEvent: {}
+[15.227562] (-) TimerEvent: {}
+[15.274708] (turtlebot_test) JobEnded: {'identifier': 'turtlebot_test', 'rc': 0}
+[15.283358] (-) EventReactorShutdown: {}

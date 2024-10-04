@@ -1,0 +1,8 @@
+[console_scripts]
+my_node = test_package.my_node:main
+testCamera = test_package.testCamera:testCamera
+testLED = test_package.testLED:testLED
+testMotor = test_package.testMotor:testMotor
+testScan = test_package.testScan:testScan
+testScript = test_package.testScript:main
+

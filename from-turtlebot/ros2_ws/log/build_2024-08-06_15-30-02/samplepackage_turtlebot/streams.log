@@ -1,0 +1,47 @@
+[0.240s] Invoking command in '/home/ubuntu/ros2_ws/build/samplepackage_turtlebot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/.mtrx/selfTest/install/test_package:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws/src/samplepackage_turtlebot -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/samplepackage_turtlebot
+[4.953s] -- The C compiler identification is GNU 11.4.0
+[9.040s] -- The CXX compiler identification is GNU 11.4.0
+[9.184s] -- Detecting C compiler ABI info
+[10.490s] -- Detecting C compiler ABI info - done
+[10.571s] -- Check for working C compiler: /usr/bin/cc - skipped
+[10.782s] -- Detecting C compile features
+[11.856s] -- Detecting C compile features - done
+[11.877s] -- Detecting CXX compiler ABI info
+[14.591s] -- Detecting CXX compiler ABI info - done
+[14.687s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[14.690s] -- Detecting CXX compile features
+[14.695s] -- Detecting CXX compile features - done
+[15.014s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[17.674s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[19.957s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[22.072s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[22.073s] -- Configured cppcheck include dirs: 
+[22.076s] -- Configured cppcheck exclude dirs and/or files: 
+[22.117s] -- Added test 'lint_cmake' to check CMake code style
+[22.162s] -- Added test 'uncrustify' to check C / C++ code style
+[22.164s] -- Configured uncrustify additional arguments: 
+[22.178s] -- Added test 'xmllint' to check XML markup files
+[22.285s] -- Configuring done
+[22.390s] -- Generating done
+[22.414s] -- Build files have been written to: /home/ubuntu/ros2_ws/build/samplepackage_turtlebot
+[22.514s] Invoked command in '/home/ubuntu/ros2_ws/build/samplepackage_turtlebot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/.mtrx/selfTest/install/test_package:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws/src/samplepackage_turtlebot -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/samplepackage_turtlebot
+[22.530s] Invoking command in '/home/ubuntu/ros2_ws/build/samplepackage_turtlebot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/.mtrx/selfTest/install/test_package:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/samplepackage_turtlebot -- -j4 -l4
+[22.950s] Invoked command in '/home/ubuntu/ros2_ws/build/samplepackage_turtlebot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/.mtrx/selfTest/install/test_package:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/samplepackage_turtlebot -- -j4 -l4
+[23.337s] Invoking command in '/home/ubuntu/ros2_ws/build/samplepackage_turtlebot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/.mtrx/selfTest/install/test_package:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/samplepackage_turtlebot
+[23.396s] -- Install configuration: ""
+[23.405s] -- Installing: /home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/ament_index/resource_index/package_run_dependencies/samplepackage_turtlebot
+[23.410s] -- Installing: /home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/ament_index/resource_index/parent_prefix_path/samplepackage_turtlebot
+[23.414s] -- Installing: /home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/samplepackage_turtlebot/environment/ament_prefix_path.sh
+[23.417s] -- Installing: /home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/samplepackage_turtlebot/environment/ament_prefix_path.dsv
+[23.421s] -- Installing: /home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/samplepackage_turtlebot/environment/path.sh
+[23.424s] -- Installing: /home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/samplepackage_turtlebot/environment/path.dsv
+[23.427s] -- Installing: /home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/samplepackage_turtlebot/local_setup.bash
+[23.430s] -- Installing: /home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/samplepackage_turtlebot/local_setup.sh
+[23.433s] -- Installing: /home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/samplepackage_turtlebot/local_setup.zsh
+[23.437s] -- Installing: /home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/samplepackage_turtlebot/local_setup.dsv
+[23.444s] -- Installing: /home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/samplepackage_turtlebot/package.dsv
+[23.445s] -- Installing: /home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/ament_index/resource_index/packages/samplepackage_turtlebot
+[23.448s] -- Installing: /home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/samplepackage_turtlebot/cmake/samplepackage_turtlebotConfig.cmake
+[23.454s] -- Installing: /home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/samplepackage_turtlebot/cmake/samplepackage_turtlebotConfig-version.cmake
+[23.456s] -- Installing: /home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/samplepackage_turtlebot/package.xml
+[23.478s] Invoked command in '/home/ubuntu/ros2_ws/build/samplepackage_turtlebot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/.mtrx/selfTest/install/test_package:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/samplepackage_turtlebot

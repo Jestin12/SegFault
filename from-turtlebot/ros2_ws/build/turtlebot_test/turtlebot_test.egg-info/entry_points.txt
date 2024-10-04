@@ -1,0 +1,8 @@
+[console_scripts]
+my_node = turtlebot_test.my_node:main
+testCamera = turtlebot_test.testCamera:testCamera
+testLED = turtlebot_test.testLED:testLED
+testMotor = turtlebot_test.testMotor:testMotor
+testScan = turtlebot_test.testScan:testScan
+testScript = turtlebot_test.testScript:main
+

@@ -1,0 +1,163 @@
+[0.000000] (-) TimerEvent: {}
+[0.003682] (-) JobUnselected: {'identifier': 'camera_ros'}
+[0.004018] (-) JobUnselected: {'identifier': 'samplepackage_turtlebot'}
+[0.005478] (-) JobUnselected: {'identifier': 'self_test'}
+[0.006003] (-) JobUnselected: {'identifier': 'turtlebot_test'}
+[0.006766] (test_package) JobQueued: {'identifier': 'test_package', 'dependencies': OrderedDict()}
+[0.007253] (test_package) JobStarted: {'identifier': 'test_package'}
+[0.098112] (-) TimerEvent: {}
+[0.199578] (-) TimerEvent: {}
+[0.300915] (-) TimerEvent: {}
+[0.402197] (-) TimerEvent: {}
+[0.503605] (-) TimerEvent: {}
+[0.604921] (-) TimerEvent: {}
+[0.706204] (-) TimerEvent: {}
+[0.807594] (-) TimerEvent: {}
+[0.908931] (-) TimerEvent: {}
+[1.010310] (-) TimerEvent: {}
+[1.111632] (-) TimerEvent: {}
+[1.213732] (-) TimerEvent: {}
+[1.315524] (-) TimerEvent: {}
+[1.416759] (-) TimerEvent: {}
+[1.518076] (-) TimerEvent: {}
+[1.619493] (-) TimerEvent: {}
+[1.720871] (-) TimerEvent: {}
+[1.822124] (-) TimerEvent: {}
+[1.923480] (-) TimerEvent: {}
+[2.024772] (-) TimerEvent: {}
+[2.126040] (-) TimerEvent: {}
+[2.227329] (-) TimerEvent: {}
+[2.328667] (-) TimerEvent: {}
+[2.429942] (-) TimerEvent: {}
+[2.531408] (-) TimerEvent: {}
+[2.632658] (-) TimerEvent: {}
+[2.734095] (-) TimerEvent: {}
+[2.837254] (-) TimerEvent: {}
+[2.940260] (-) TimerEvent: {}
+[3.041853] (-) TimerEvent: {}
+[3.143263] (-) TimerEvent: {}
+[3.244639] (-) TimerEvent: {}
+[3.345833] (-) TimerEvent: {}
+[3.447050] (-) TimerEvent: {}
+[3.548332] (-) TimerEvent: {}
+[3.649565] (-) TimerEvent: {}
+[3.750877] (-) TimerEvent: {}
+[3.852166] (-) TimerEvent: {}
+[3.953512] (-) TimerEvent: {}
+[4.054906] (-) TimerEvent: {}
+[4.156249] (-) TimerEvent: {}
+[4.257496] (-) TimerEvent: {}
+[4.358811] (-) TimerEvent: {}
+[4.461362] (-) TimerEvent: {}
+[4.562855] (-) TimerEvent: {}
+[4.664309] (-) TimerEvent: {}
+[4.765542] (-) TimerEvent: {}
+[4.867040] (-) TimerEvent: {}
+[4.968394] (-) TimerEvent: {}
+[5.069629] (-) TimerEvent: {}
+[5.170889] (-) TimerEvent: {}
+[5.272280] (-) TimerEvent: {}
+[5.373524] (-) TimerEvent: {}
+[5.474779] (-) TimerEvent: {}
+[5.576100] (-) TimerEvent: {}
+[5.677349] (-) TimerEvent: {}
+[5.778604] (-) TimerEvent: {}
+[5.879948] (-) TimerEvent: {}
+[5.981248] (-) TimerEvent: {}
+[6.083870] (-) TimerEvent: {}
+[6.185231] (-) TimerEvent: {}
+[6.286458] (-) TimerEvent: {}
+[6.387797] (-) TimerEvent: {}
+[6.489076] (-) TimerEvent: {}
+[6.591593] (-) TimerEvent: {}
+[6.693253] (-) TimerEvent: {}
+[6.797259] (test_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/test_package', 'build', '--build-base', '/home/ubuntu/ros2_ws/build/test_package/build', 'install', '--record', '/home/ubuntu/ros2_ws/build/test_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ubuntu/ros2_ws/src/test_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'SSH_CLIENT': '172.20.10.6 36620 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ubuntu/ros2_ws/install/camera_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/ubuntu', 'OLDPWD': '/home/ubuntu/ros2_ws/src', 'SSH_TTY': '/dev/pts/4', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/ubuntu/ros2_ws/src/install:/home/ubuntu/ros2_ws/install:/home/ubuntu/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ubuntu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '8', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/ubuntu/ros2_ws/src/install/test_package:/home/ubuntu/ros2_ws/install/my_package:/home/ubuntu/ros2_ws/install/samplepackage_turtlebot:/home/ubuntu/ros2_ws/install/camera_ros:/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ubuntu/ros2_ws/build/test_package', 'TURTLEBOT3_MODEL': 'burger', 'SSH_CONNECTION': '172.20.10.6 36620 172.20.10.9 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-01', 'PYTHONPATH': '/home/ubuntu/ros2_ws/build/test_package/prefix_override:/home/ubuntu/ros2_ws/install/test_package/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/src/install/test_package/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/turtlebot_test/lib/python3.10/site-packages:/home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_teleop:/home/ubuntu/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/ubuntu/turtlebot3_ws/build/turtlebot3_example:/home/ubuntu/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/ubuntu/ros2_ws/install/samplepackage_turtlebot:/home/ubuntu/ros2_ws/install/camera_ros:/home/ubuntu/turtlebot3_ws/install/turtlebot3:/home/ubuntu/turtlebot3_ws/install/turtlebot3_bringup:/home/ubuntu/turtlebot3_ws/install/turtlebot3_node:/home/ubuntu/turtlebot3_ws/install/turtlebot3_description:/home/ubuntu/turtlebot3_ws/install/ld08_driver'}, 'shell': False}
+[6.809086] (-) TimerEvent: {}
+[6.911255] (-) TimerEvent: {}
+[7.013552] (-) TimerEvent: {}
+[7.115427] (-) TimerEvent: {}
+[7.216630] (-) TimerEvent: {}
+[7.317953] (-) TimerEvent: {}
+[7.420517] (-) TimerEvent: {}
+[7.522005] (-) TimerEvent: {}
+[7.624257] (-) TimerEvent: {}
+[7.725708] (-) TimerEvent: {}
+[7.826991] (-) TimerEvent: {}
+[7.928406] (-) TimerEvent: {}
+[8.029698] (-) TimerEvent: {}
+[8.130907] (-) TimerEvent: {}
+[8.232239] (-) TimerEvent: {}
+[8.333492] (-) TimerEvent: {}
+[8.434733] (-) TimerEvent: {}
+[8.536060] (-) TimerEvent: {}
+[8.637701] (-) TimerEvent: {}
+[8.738975] (-) TimerEvent: {}
+[8.840375] (-) TimerEvent: {}
+[8.941640] (-) TimerEvent: {}
+[9.042958] (-) TimerEvent: {}
+[9.144687] (-) TimerEvent: {}
+[9.246318] (-) TimerEvent: {}
+[9.347907] (-) TimerEvent: {}
+[9.449328] (-) TimerEvent: {}
+[9.505167] (test_package) StdoutLine: {'line': b'running egg_info\n'}
+[9.510368] (test_package) StdoutLine: {'line': b'creating ../../build/test_package/test_package.egg-info\n'}
+[9.512117] (test_package) StdoutLine: {'line': b'writing ../../build/test_package/test_package.egg-info/PKG-INFO\n'}
+[9.514501] (test_package) StdoutLine: {'line': b'writing dependency_links to ../../build/test_package/test_package.egg-info/dependency_links.txt\n'}
+[9.516147] (test_package) StdoutLine: {'line': b'writing entry points to ../../build/test_package/test_package.egg-info/entry_points.txt\n'}
+[9.517595] (test_package) StdoutLine: {'line': b'writing requirements to ../../build/test_package/test_package.egg-info/requires.txt\n'}
+[9.519035] (test_package) StdoutLine: {'line': b'writing top-level names to ../../build/test_package/test_package.egg-info/top_level.txt\n'}
+[9.521080] (test_package) StdoutLine: {'line': b"writing manifest file '../../build/test_package/test_package.egg-info/SOURCES.txt'\n"}
+[9.537717] (test_package) StdoutLine: {'line': b"reading manifest file '../../build/test_package/test_package.egg-info/SOURCES.txt'\n"}
+[9.545377] (test_package) StdoutLine: {'line': b"writing manifest file '../../build/test_package/test_package.egg-info/SOURCES.txt'\n"}
+[9.546847] (test_package) StdoutLine: {'line': b'running build\n'}
+[9.548082] (test_package) StdoutLine: {'line': b'running build_py\n'}
+[9.549420] (test_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/test_package/build\n'}
+[9.550946] (-) TimerEvent: {}
+[9.552869] (test_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/test_package/build/lib\n'}
+[9.554403] (test_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/build/test_package/build/lib/test_package\n'}
+[9.555793] (test_package) StdoutLine: {'line': b'copying test_package/__init__.py -> /home/ubuntu/ros2_ws/build/test_package/build/lib/test_package\n'}
+[9.556932] (test_package) StdoutLine: {'line': b'copying test_package/testScan.py -> /home/ubuntu/ros2_ws/build/test_package/build/lib/test_package\n'}
+[9.558158] (test_package) StdoutLine: {'line': b'copying test_package/my_node.py -> /home/ubuntu/ros2_ws/build/test_package/build/lib/test_package\n'}
+[9.559597] (test_package) StdoutLine: {'line': b'copying test_package/testLED.py -> /home/ubuntu/ros2_ws/build/test_package/build/lib/test_package\n'}
+[9.560761] (test_package) StdoutLine: {'line': b'copying test_package/testCamera.py -> /home/ubuntu/ros2_ws/build/test_package/build/lib/test_package\n'}
+[9.562070] (test_package) StdoutLine: {'line': b'copying test_package/testScript.py -> /home/ubuntu/ros2_ws/build/test_package/build/lib/test_package\n'}
+[9.563500] (test_package) StdoutLine: {'line': b'copying test_package/testMotor.py -> /home/ubuntu/ros2_ws/build/test_package/build/lib/test_package\n'}
+[9.565734] (test_package) StdoutLine: {'line': b'running install\n'}
+[9.568627] (test_package) StdoutLine: {'line': b'running install_lib\n'}
+[9.575062] (test_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/test_package/lib/python3.10/site-packages/test_package\n'}
+[9.576922] (test_package) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/test_package/build/lib/test_package/__init__.py -> /home/ubuntu/ros2_ws/install/test_package/lib/python3.10/site-packages/test_package\n'}
+[9.578741] (test_package) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/test_package/build/lib/test_package/testScan.py -> /home/ubuntu/ros2_ws/install/test_package/lib/python3.10/site-packages/test_package\n'}
+[9.581228] (test_package) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/test_package/build/lib/test_package/my_node.py -> /home/ubuntu/ros2_ws/install/test_package/lib/python3.10/site-packages/test_package\n'}
+[9.582592] (test_package) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/test_package/build/lib/test_package/testLED.py -> /home/ubuntu/ros2_ws/install/test_package/lib/python3.10/site-packages/test_package\n'}
+[9.584111] (test_package) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/test_package/build/lib/test_package/testCamera.py -> /home/ubuntu/ros2_ws/install/test_package/lib/python3.10/site-packages/test_package\n'}
+[9.585386] (test_package) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/test_package/build/lib/test_package/testScript.py -> /home/ubuntu/ros2_ws/install/test_package/lib/python3.10/site-packages/test_package\n'}
+[9.587068] (test_package) StdoutLine: {'line': b'copying /home/ubuntu/ros2_ws/build/test_package/build/lib/test_package/testMotor.py -> /home/ubuntu/ros2_ws/install/test_package/lib/python3.10/site-packages/test_package\n'}
+[9.593549] (test_package) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/test_package/lib/python3.10/site-packages/test_package/__init__.py to __init__.cpython-310.pyc\n'}
+[9.597203] (test_package) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/test_package/lib/python3.10/site-packages/test_package/testScan.py to testScan.cpython-310.pyc\n'}
+[9.602243] (test_package) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/test_package/lib/python3.10/site-packages/test_package/my_node.py to my_node.cpython-310.pyc\n'}
+[9.605112] (test_package) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/test_package/lib/python3.10/site-packages/test_package/testLED.py to testLED.cpython-310.pyc\n'}
+[9.608868] (test_package) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/test_package/lib/python3.10/site-packages/test_package/testCamera.py to testCamera.cpython-310.pyc\n'}
+[9.613338] (test_package) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/test_package/lib/python3.10/site-packages/test_package/testScript.py to testScript.cpython-310.pyc\n'}
+[9.618660] (test_package) StdoutLine: {'line': b'byte-compiling /home/ubuntu/ros2_ws/install/test_package/lib/python3.10/site-packages/test_package/testMotor.py to testMotor.cpython-310.pyc\n'}
+[9.623652] (test_package) StdoutLine: {'line': b'running install_data\n'}
+[9.625223] (test_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/test_package/share\n'}
+[9.627099] (test_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/test_package/share/ament_index\n'}
+[9.628730] (test_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/test_package/share/ament_index/resource_index\n'}
+[9.630331] (test_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/test_package/share/ament_index/resource_index/packages\n'}
+[9.631897] (test_package) StdoutLine: {'line': b'copying resource/test_package -> /home/ubuntu/ros2_ws/install/test_package/share/ament_index/resource_index/packages\n'}
+[9.633071] (test_package) StdoutLine: {'line': b'creating /home/ubuntu/ros2_ws/install/test_package/share/test_package\n'}
+[9.634080] (test_package) StdoutLine: {'line': b'copying package.xml -> /home/ubuntu/ros2_ws/install/test_package/share/test_package\n'}
+[9.635103] (test_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.647704] (test_package) StdoutLine: {'line': b'Copying ../../build/test_package/test_package.egg-info to /home/ubuntu/ros2_ws/install/test_package/lib/python3.10/site-packages/test_package-0.0.0-py3.10.egg-info\n'}
+[9.651202] (-) TimerEvent: {}
+[9.661354] (test_package) StdoutLine: {'line': b'running install_scripts\n'}
+[9.751561] (-) TimerEvent: {}
+[9.852968] (-) TimerEvent: {}
+[9.864581] (test_package) StdoutLine: {'line': b'Installing my_node script to /home/ubuntu/ros2_ws/install/test_package/lib/test_package\n'}
+[9.868623] (test_package) StdoutLine: {'line': b"writing list of installed files to '/home/ubuntu/ros2_ws/build/test_package/install.log'\n"}
+[9.953374] (-) TimerEvent: {}
+[10.054995] (-) TimerEvent: {}
+[10.128868] (test_package) CommandEnded: {'returncode': 0}
+[10.158146] (-) TimerEvent: {}
+[10.236091] (test_package) JobEnded: {'identifier': 'test_package', 'rc': 0}
+[10.241376] (-) EventReactorShutdown: {}

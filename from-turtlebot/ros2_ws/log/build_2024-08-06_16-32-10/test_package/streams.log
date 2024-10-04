@@ -1,0 +1,21 @@
+[12.166s] Invoking command in '/home/ubuntu/ros2_ws/src/test_package': PYTHONPATH=/home/ubuntu/ros2_ws/build/test_package/prefix_override:/home/ubuntu/ros2_ws/install/test_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_package build --build-base /home/ubuntu/ros2_ws/build/test_package/build install --record /home/ubuntu/ros2_ws/build/test_package/install.log --single-version-externally-managed install_data
+[15.306s] running egg_info
+[15.312s] writing ../../build/test_package/test_package.egg-info/PKG-INFO
+[15.321s] writing dependency_links to ../../build/test_package/test_package.egg-info/dependency_links.txt
+[15.323s] writing entry points to ../../build/test_package/test_package.egg-info/entry_points.txt
+[15.324s] writing requirements to ../../build/test_package/test_package.egg-info/requires.txt
+[15.325s] writing top-level names to ../../build/test_package/test_package.egg-info/top_level.txt
+[15.346s] reading manifest file '../../build/test_package/test_package.egg-info/SOURCES.txt'
+[15.356s] writing manifest file '../../build/test_package/test_package.egg-info/SOURCES.txt'
+[15.358s] running build
+[15.359s] running build_py
+[15.366s] running install
+[15.370s] running install_lib
+[15.386s] running install_data
+[15.388s] running install_egg_info
+[15.405s] removing '/home/ubuntu/ros2_ws/install/test_package/lib/python3.10/site-packages/test_package-0.0.0-py3.10.egg-info' (and everything under it)
+[15.409s] Copying ../../build/test_package/test_package.egg-info to /home/ubuntu/ros2_ws/install/test_package/lib/python3.10/site-packages/test_package-0.0.0-py3.10.egg-info
+[15.423s] running install_scripts
+[15.633s] Installing my_node script to /home/ubuntu/ros2_ws/install/test_package/lib/test_package
+[15.639s] writing list of installed files to '/home/ubuntu/ros2_ws/build/test_package/install.log'
+[15.926s] Invoked command in '/home/ubuntu/ros2_ws/src/test_package' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/test_package/prefix_override:/home/ubuntu/ros2_ws/install/test_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_package build --build-base /home/ubuntu/ros2_ws/build/test_package/build install --record /home/ubuntu/ros2_ws/build/test_package/install.log --single-version-externally-managed install_data

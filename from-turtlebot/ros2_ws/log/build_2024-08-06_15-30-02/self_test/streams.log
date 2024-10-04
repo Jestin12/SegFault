@@ -1,0 +1,62 @@
+[15.806s] Invoking command in '/home/ubuntu/ros2_ws/src/self_test': PYTHONPATH=/home/ubuntu/ros2_ws/build/self_test/prefix_override:/home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/self_test build --build-base /home/ubuntu/ros2_ws/build/self_test/build install --record /home/ubuntu/ros2_ws/build/self_test/install.log --single-version-externally-managed install_data
+[19.666s] running egg_info
+[19.672s] creating ../../build/self_test/self_test.egg-info
+[19.674s] writing ../../build/self_test/self_test.egg-info/PKG-INFO
+[19.677s] writing dependency_links to ../../build/self_test/self_test.egg-info/dependency_links.txt
+[19.679s] writing entry points to ../../build/self_test/self_test.egg-info/entry_points.txt
+[19.683s] writing requirements to ../../build/self_test/self_test.egg-info/requires.txt
+[19.685s] writing top-level names to ../../build/self_test/self_test.egg-info/top_level.txt
+[19.689s] writing manifest file '../../build/self_test/self_test.egg-info/SOURCES.txt'
+[19.709s] reading manifest file '../../build/self_test/self_test.egg-info/SOURCES.txt'
+[19.711s] adding license file 'LICENSE'
+[19.716s] writing manifest file '../../build/self_test/self_test.egg-info/SOURCES.txt'
+[19.717s] running build
+[19.720s] running build_py
+[19.722s] creating /home/ubuntu/ros2_ws/build/self_test/build
+[19.724s] creating /home/ubuntu/ros2_ws/build/self_test/build/lib
+[19.725s] creating /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test
+[19.727s] copying self_test/__init__.py -> /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test
+[19.729s] copying self_test/testScan.py -> /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test
+[19.732s] copying self_test/my_node.py -> /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test
+[19.734s] copying self_test/testLED.py -> /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test
+[19.735s] copying self_test/testCamera.py -> /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test
+[19.738s] copying self_test/testScript.py -> /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test
+[19.740s] copying self_test/testMotor.py -> /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test
+[19.742s] running install
+[19.743s] running install_lib
+[19.749s] creating /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test
+[19.751s] copying /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test/__init__.py -> /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test
+[19.753s] copying /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test/testScan.py -> /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test
+[19.757s] copying /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test/my_node.py -> /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test
+[19.766s] copying /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test/testLED.py -> /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test
+[19.771s] copying /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test/testCamera.py -> /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test
+[19.772s] copying /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test/testScript.py -> /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test
+[19.775s] copying /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test/testMotor.py -> /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test
+[19.784s] byte-compiling /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test/__init__.py to __init__.cpython-310.pyc
+[19.788s] byte-compiling /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test/testScan.py to testScan.cpython-310.pyc
+[19.797s] byte-compiling /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test/my_node.py to my_node.cpython-310.pyc
+[19.823s] byte-compiling /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test/testLED.py to testLED.cpython-310.pyc
+[19.827s] byte-compiling /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test/testCamera.py to testCamera.cpython-310.pyc
+[19.834s] byte-compiling /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test/testScript.py to testScript.cpython-310.pyc
+[19.842s] byte-compiling /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test/testMotor.py to testMotor.cpython-310.pyc
+[19.850s] running install_data
+[19.854s] creating /home/ubuntu/ros2_ws/install/self_test/share
+[19.857s] creating /home/ubuntu/ros2_ws/install/self_test/share/ament_index
+[19.859s] creating /home/ubuntu/ros2_ws/install/self_test/share/ament_index/resource_index
+[19.865s] creating /home/ubuntu/ros2_ws/install/self_test/share/ament_index/resource_index/packages
+[19.883s] copying resource/self_test -> /home/ubuntu/ros2_ws/install/self_test/share/ament_index/resource_index/packages
+[19.884s] creating /home/ubuntu/ros2_ws/install/self_test/share/self_test
+[19.885s] copying package.xml -> /home/ubuntu/ros2_ws/install/self_test/share/self_test
+[19.886s] creating /home/ubuntu/ros2_ws/install/self_test/share/self_test/launch
+[19.887s] copying launch/self_test.launch.py -> /home/ubuntu/ros2_ws/install/self_test/share/self_test/launch
+[19.888s] running install_egg_info
+[19.890s] Copying ../../build/self_test/self_test.egg-info to /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test-0.0.0-py3.10.egg-info
+[19.897s] running install_scripts
+[20.204s] Installing my_node script to /home/ubuntu/ros2_ws/install/self_test/lib/test_package
+[20.206s] Installing testCamera script to /home/ubuntu/ros2_ws/install/self_test/lib/test_package
+[20.210s] Installing testLED script to /home/ubuntu/ros2_ws/install/self_test/lib/test_package
+[20.211s] Installing testMotor script to /home/ubuntu/ros2_ws/install/self_test/lib/test_package
+[20.220s] Installing testScan script to /home/ubuntu/ros2_ws/install/self_test/lib/test_package
+[20.222s] Installing testScript script to /home/ubuntu/ros2_ws/install/self_test/lib/test_package
+[20.239s] writing list of installed files to '/home/ubuntu/ros2_ws/build/self_test/install.log'
+[21.030s] Invoked command in '/home/ubuntu/ros2_ws/src/self_test' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/self_test/prefix_override:/home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/self_test build --build-base /home/ubuntu/ros2_ws/build/self_test/build install --record /home/ubuntu/ros2_ws/build/self_test/install.log --single-version-externally-managed install_data

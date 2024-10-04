@@ -1,0 +1,15 @@
+/home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/ament_index/resource_index/package_run_dependencies/samplepackage_turtlebot
+/home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/ament_index/resource_index/parent_prefix_path/samplepackage_turtlebot
+/home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/samplepackage_turtlebot/environment/ament_prefix_path.sh
+/home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/samplepackage_turtlebot/environment/ament_prefix_path.dsv
+/home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/samplepackage_turtlebot/environment/path.sh
+/home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/samplepackage_turtlebot/environment/path.dsv
+/home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/samplepackage_turtlebot/local_setup.bash
+/home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/samplepackage_turtlebot/local_setup.sh
+/home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/samplepackage_turtlebot/local_setup.zsh
+/home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/samplepackage_turtlebot/local_setup.dsv
+/home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/samplepackage_turtlebot/package.dsv
+/home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/ament_index/resource_index/packages/samplepackage_turtlebot
+/home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/samplepackage_turtlebot/cmake/samplepackage_turtlebotConfig.cmake
+/home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/samplepackage_turtlebot/cmake/samplepackage_turtlebotConfig-version.cmake
+/home/ubuntu/ros2_ws/install/samplepackage_turtlebot/share/samplepackage_turtlebot/package.xml

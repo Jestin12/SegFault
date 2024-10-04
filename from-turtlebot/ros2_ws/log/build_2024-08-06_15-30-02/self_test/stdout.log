@@ -1,0 +1,60 @@
+running egg_info
+creating ../../build/self_test/self_test.egg-info
+writing ../../build/self_test/self_test.egg-info/PKG-INFO
+writing dependency_links to ../../build/self_test/self_test.egg-info/dependency_links.txt
+writing entry points to ../../build/self_test/self_test.egg-info/entry_points.txt
+writing requirements to ../../build/self_test/self_test.egg-info/requires.txt
+writing top-level names to ../../build/self_test/self_test.egg-info/top_level.txt
+writing manifest file '../../build/self_test/self_test.egg-info/SOURCES.txt'
+reading manifest file '../../build/self_test/self_test.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/self_test/self_test.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ubuntu/ros2_ws/build/self_test/build
+creating /home/ubuntu/ros2_ws/build/self_test/build/lib
+creating /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test
+copying self_test/__init__.py -> /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test
+copying self_test/testScan.py -> /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test
+copying self_test/my_node.py -> /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test
+copying self_test/testLED.py -> /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test
+copying self_test/testCamera.py -> /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test
+copying self_test/testScript.py -> /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test
+copying self_test/testMotor.py -> /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test
+running install
+running install_lib
+creating /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test
+copying /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test/__init__.py -> /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test
+copying /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test/testScan.py -> /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test
+copying /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test/my_node.py -> /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test
+copying /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test/testLED.py -> /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test
+copying /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test/testCamera.py -> /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test
+copying /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test/testScript.py -> /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test
+copying /home/ubuntu/ros2_ws/build/self_test/build/lib/self_test/testMotor.py -> /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test
+byte-compiling /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test/testScan.py to testScan.cpython-310.pyc
+byte-compiling /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test/my_node.py to my_node.cpython-310.pyc
+byte-compiling /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test/testLED.py to testLED.cpython-310.pyc
+byte-compiling /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test/testCamera.py to testCamera.cpython-310.pyc
+byte-compiling /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test/testScript.py to testScript.cpython-310.pyc
+byte-compiling /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test/testMotor.py to testMotor.cpython-310.pyc
+running install_data
+creating /home/ubuntu/ros2_ws/install/self_test/share
+creating /home/ubuntu/ros2_ws/install/self_test/share/ament_index
+creating /home/ubuntu/ros2_ws/install/self_test/share/ament_index/resource_index
+creating /home/ubuntu/ros2_ws/install/self_test/share/ament_index/resource_index/packages
+copying resource/self_test -> /home/ubuntu/ros2_ws/install/self_test/share/ament_index/resource_index/packages
+creating /home/ubuntu/ros2_ws/install/self_test/share/self_test
+copying package.xml -> /home/ubuntu/ros2_ws/install/self_test/share/self_test
+creating /home/ubuntu/ros2_ws/install/self_test/share/self_test/launch
+copying launch/self_test.launch.py -> /home/ubuntu/ros2_ws/install/self_test/share/self_test/launch
+running install_egg_info
+Copying ../../build/self_test/self_test.egg-info to /home/ubuntu/ros2_ws/install/self_test/lib/python3.10/site-packages/self_test-0.0.0-py3.10.egg-info
+running install_scripts
+Installing my_node script to /home/ubuntu/ros2_ws/install/self_test/lib/test_package
+Installing testCamera script to /home/ubuntu/ros2_ws/install/self_test/lib/test_package
+Installing testLED script to /home/ubuntu/ros2_ws/install/self_test/lib/test_package
+Installing testMotor script to /home/ubuntu/ros2_ws/install/self_test/lib/test_package
+Installing testScan script to /home/ubuntu/ros2_ws/install/self_test/lib/test_package
+Installing testScript script to /home/ubuntu/ros2_ws/install/self_test/lib/test_package
+writing list of installed files to '/home/ubuntu/ros2_ws/build/self_test/install.log'

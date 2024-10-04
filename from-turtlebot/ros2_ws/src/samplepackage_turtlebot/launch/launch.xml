@@ -1,0 +1,4 @@
+<launch>
+  <node name="samplepackage_turtlebot" pkg="samplepackage_turtlebot" exec="listener" output="screen" args="foo">
+  </node>
+</launch>
