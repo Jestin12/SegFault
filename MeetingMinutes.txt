@@ -1,1 +1,62 @@
+// MEETING 1 ////////////////////////////////////////////////////////////
+Date: 23/09/2024
+Time: 12pm - 3pm 
+Location: Mechatronics Lab
+Attendees: Ben, Fernando, Jestin, Ameline
+
+Agenda items: 
+- Flash SD card onto turtlebot
+- Setup turtlebot and run the selfTest file to check all is working 
+- Fixed the broken camera 
+- Get Teleop Keyboard working with the turtlebot
+
+Adjournment: 
+- Meet before midsemester break to organise how to break up the project 
+
+
+
+// MEETING 2 ////////////////////////////////////////////////////////////
+Date: 28/09/2024
+Time: 12pm - 12:45pm 
+Location: Mechatronics Lab 
+Attendees: Ameline, Jestin, Emma 
+
+Agenda items: 
+- Teach Emma to use the turtlebot
+
+Adjournment: 
+- Meet during midsemester break to discuss how to approach the project 
+
+
+
+// MEETING 3 ////////////////////////////////////////////////////////////
+Date: 3/10/2024
+Time: 5pm - 5:30pm 
+Location: Zoom 
+Attendees: Ben, Emma, Fernando, Jestin 
+
+Agenda items: 
+
+
+Adjournment: 
+- Meeting tomorrow to begin working on code and built-in nodes + topics
+
+
+
+// MEETING 4 ////////////////////////////////////////////////////////////
+Date: 4/10/2024
+Time: 1pm - 1:30pm 
+Location: Zoom 
+Attendees: Jestin, Ameline 
+
+Agenda items: 
+- Update Ameline on the project progression 
+- Run image_raw topic to see what is being sent to the terminal 
+- Discuss how to setup launch files and where to find them 
+
+Adjournment: 
+- Meet on Monday 7/10/2024 to begin coding and using relevanr Project 1 code
+
+
+
 
